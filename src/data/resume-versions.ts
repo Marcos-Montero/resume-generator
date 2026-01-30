@@ -267,9 +267,9 @@ function getExperienceForVersion(version: ResumeVersion): ResumeData["experience
 
 // Helper to get achievements based on recency (more recent = more detail)
 function getAchievementsByRecency(exp: any, version: ResumeVersion, index: number): string[] {
-  // Achievement limits based on position (0 = most recent)
-  const achievementLimits = [3, 2, 2, 1]; // Enso(3), Mindera(2), Nomoko(2), Cesce(1)
-  const maxAchievements = achievementLimits[index] || 1;
+  // Achievement limits based on position (0 = most recent) - DOUBLED
+  const achievementLimits = [6, 4, 4, 2]; // Enso(6), Mindera(4), Nomoko(4), Cesce(2)
+  const maxAchievements = achievementLimits[index] || 2;
   
   // Pre-selected key achievements for each company
   const keyAchievements: Record<string, Record<string, string[]>> = {
@@ -277,38 +277,54 @@ function getAchievementsByRecency(exp: any, version: ResumeVersion, index: numbe
       leadership: [
         "Built entire tech stack from zero, generating €30k/month automated revenue",
         "Led team of 4 developers, mentoring 2 from zero coding experience to production-ready",
-        "Architected data consolidation system (Notion/Airtable → PostgreSQL/Supabase)"
+        "Architected data consolidation system (Notion/Airtable → PostgreSQL/Supabase)",
+        "Designed and implemented Row Level Security policies for sensitive financial data",
+        "Drove technical strategy and system architecture decisions for scalability",
+        "Established development workflows and code review processes across the team"
       ],
       product: [
         "Architected data consolidation system (Notion/Airtable → PostgreSQL/Supabase)", 
         "Built algorithmic tenant qualification system, reducing manual operations 90%",
-        "Created vector databases for AI tools and automated payment processing"
+        "Created vector databases for AI tools and automated payment processing",
+        "Engineered Self-Serve Booking Engine with Stripe integration for automated revenue",
+        "Built Idealista-style property website with advanced map functionality",
+        "Designed intelligent matchmaking system for coliver compatibility analysis"
       ],
       technical: [
         "Built entire tech stack from zero using Next.js, PostgreSQL, and Python",
         "Created vector databases for AI tools and automated payment processing",
-        "Generated €30k/month revenue first month after launch"
+        "Generated €30k/month revenue first month after launch",
+        "Implemented complex SQL schemas and database optimization for performance",
+        "Built real-time data sync and user authentication systems with Supabase",
+        "Architected scalable serverless functions handling high-volume transactions"
       ]
     },
     "Mindera": {
       leadership: [
         "Led migration from legacy monoliths to React, reducing delivery cycles 40%",
-        "Architected multi-brand Design System across 3 global products"
+        "Architected multi-brand Design System across 3 global products",
+        "Drove React Native adoption for seamless web-mobile code sharing",
+        "Mentored junior developers and established TDD practices across teams"
       ],
       technical: [
         "Built scalable React and React Native applications for UK/US clients",
-        "Implemented TDD and CI/CD, reducing production bugs by 60%"
+        "Implemented TDD and CI/CD, reducing production bugs by 60%",
+        "Developed high-performance frontend architectures for international markets",
+        "Integrated GraphQL APIs and optimized data fetching patterns for performance"
       ]
     },
     "Nomoko": {
       technical: [
         "Engineered high-performance 3D data visualization with 60fps rendering",
-        "Built component architecture for rapid Real Estate product prototyping"
+        "Built component architecture for rapid Real Estate product prototyping",
+        "Implemented WebGL/Three.js solutions for complex geospatial data rendering",
+        "Optimized massive dataset handling and real-time visualization performance"
       ]
     },
     "Cesce": {
       technical: [
-        "Developed regulatory-compliant interfaces for financial risk analysis"
+        "Developed regulatory-compliant interfaces for financial risk analysis",
+        "Built production systems serving 20k+ B2B customers with 100% uptime"
       ]
     }
   };
