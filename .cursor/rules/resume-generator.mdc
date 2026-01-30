@@ -1,0 +1,24 @@
+---
+description: Rules for the Resume Generator project
+globs: **/*
+alwaysApply: true
+---
+
+# Resume Generator Project Rules
+
+## Data Integrity
+- **Never invent or fabricate resume data**. If additional data is needed to fulfill a feature or improve ATS score, ask the user for it explicitly.
+- All resume content must come from the user or the existing `resume-data.ts` file.
+
+## Layout Constraints
+- **The resume must always fit within a single A4 page** (210mm × 297mm).
+- When adjusting content or layout, ensure nothing overflows the A4 boundaries.
+- Balance font sizes and spacing to maximize readability while fitting all content.
+
+## Code Standards
+- Use TypeScript types (not interfaces) for all type definitions.
+- Type React component props inline within the function signature.
+- Use named exports for React functional components.
+- Avoid comments in code - code should be self-explanatory.
+- Extract components to kebab-case `.tsx` files in a `components` folder at the same level.
+- Do not import React explicitly (not needed in modern React).

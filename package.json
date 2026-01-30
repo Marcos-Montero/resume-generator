@@ -9,9 +9,16 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@ai-sdk/anthropic": "^3.0.31",
+    "@ai-sdk/openai": "^3.0.23",
+    "@react-pdf/renderer": "^4.3.2",
+    "ai": "^6.0.62",
+    "lucide-react": "^0.563.0",
     "next": "16.1.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "zod": "^4.3.6",
+    "zustand": "^5.0.10"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
