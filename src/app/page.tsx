@@ -2,7 +2,6 @@
 
 import { FileText } from "lucide-react";
 import { ResumeTemplate } from "@/components/resume-template";
-import { ReviewSidebar } from "@/components/review-sidebar";
 import { PDFDownloadButton } from "@/components/pdf-download-button";
 import { useResumeStore } from "@/store/resume-store";
 import { RESUME_VERSIONS } from "@/data/resume-versions";
@@ -55,8 +54,6 @@ export default function HomePage() {
             <ResumeTemplate data={resumeData} />
           </div>
         </div>
-
-        <ReviewSidebar />
       </main>
     </div>
   );

@@ -68,10 +68,4 @@ export type ResumeData = {
   projects: Project[];
 };
 
-export type AIScoreResult = {
-  overallScore: number;
-  impactImprovements: string[];
-  keywordGaps: string[];
-  strengths: string[];
-  summary: string;
-};
+// AI types removed
