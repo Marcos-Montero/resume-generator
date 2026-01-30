@@ -9,8 +9,8 @@ export function ResumeTemplate({ data }: { data: ResumeData }) {
   return (
     <div className="bg-white text-gray-900 w-[210mm] h-[297mm] mx-auto shadow-lg print:shadow-none overflow-hidden text-[10px] leading-[1.3]">
       <div className="flex h-full">
-        <aside className="w-[62mm] bg-gray-50 px-5 py-6 print:bg-gray-50 flex flex-col">
-          <section className="mb-5">
+        <aside className="w-[62mm] bg-gray-50 px-5 py-6 print:bg-gray-50 flex flex-col justify-evenly">
+          <section className="flex-shrink-0">
             <h2 className="text-[9px] font-bold uppercase tracking-wider text-gray-500 mb-3 border-b border-gray-300 pb-1">
               Personal Details
             </h2>
@@ -40,7 +40,7 @@ export function ResumeTemplate({ data }: { data: ResumeData }) {
             </div>
           </section>
 
-          <section className="mb-5">
+          <section className="flex-shrink-0">
             <h2 className="text-[9px] font-bold uppercase tracking-wider text-gray-500 mb-3 border-b border-gray-300 pb-1">
               Languages
             </h2>
@@ -53,7 +53,7 @@ export function ResumeTemplate({ data }: { data: ResumeData }) {
             </div>
           </section>
 
-          <section className="mb-5">
+          <section className="flex-shrink-0">
             <h2 className="text-[9px] font-bold uppercase tracking-wider text-gray-500 mb-3 border-b border-gray-300 pb-1">
               Education
             </h2>
@@ -70,7 +70,7 @@ export function ResumeTemplate({ data }: { data: ResumeData }) {
           </section>
 
           {memberships.length > 0 && (
-            <section className="mb-5">
+            <section className="flex-shrink-0">
               <h2 className="text-[9px] font-bold uppercase tracking-wider text-gray-500 mb-3 border-b border-gray-300 pb-1">
                 Memberships
               </h2>
@@ -87,7 +87,7 @@ export function ResumeTemplate({ data }: { data: ResumeData }) {
           )}
 
           {interests.length > 0 && (
-            <section className="mb-5">
+            <section className="flex-shrink-0">
               <h2 className="text-[9px] font-bold uppercase tracking-wider text-gray-500 mb-3 border-b border-gray-300 pb-1">
                 Interests
               </h2>
@@ -103,18 +103,18 @@ export function ResumeTemplate({ data }: { data: ResumeData }) {
           )}
         </aside>
 
-        <main className="flex-1 px-6 py-6">
-          <header className="mb-5 border-b-2 border-gray-900 pb-3">
+        <main className="flex-1 px-6 py-6 flex flex-col justify-evenly">
+          <header className="flex-shrink-0 border-b-2 border-gray-900 pb-3">
             <h1 className="text-[26px] font-bold tracking-tight uppercase leading-none">{personalDetails.fullName}</h1>
             <p className="text-[13px] text-gray-600 mt-1.5">{personalDetails.title}</p>
           </header>
 
-          <section className="mb-5">
+          <section className="flex-shrink-0">
             <h2 className="text-[10px] font-bold uppercase tracking-wider text-gray-900 mb-2">Summary</h2>
             <p className="text-gray-700 leading-[1.4]">{summary}</p>
           </section>
 
-          <section className="mb-5">
+          <section className="flex-shrink-0">
             <h2 className="text-[10px] font-bold uppercase tracking-wider text-gray-900 mb-2">Core Competencies</h2>
             <div className="space-y-1">
               {skills.map((skill) => (
@@ -126,7 +126,7 @@ export function ResumeTemplate({ data }: { data: ResumeData }) {
             </div>
           </section>
 
-          <section>
+          <section className="flex-1">
             <h2 className="text-[10px] font-bold uppercase tracking-wider text-gray-900 mb-3">Experience</h2>
             <div className="space-y-4">
               {experience.map((exp) => (
