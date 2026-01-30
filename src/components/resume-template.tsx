@@ -9,7 +9,7 @@ export function ResumeTemplate({ data }: { data: ResumeData }) {
   return (
     <div className="bg-white text-gray-900 w-[210mm] h-[297mm] mx-auto shadow-lg print:shadow-none overflow-hidden text-[10px] leading-[1.3]">
       <div className="flex h-full">
-        <aside className="w-[62mm] bg-gray-50 px-5 py-6 print:bg-gray-50 flex flex-col justify-evenly">
+        <aside className="w-[62mm] bg-gray-50 px-5 pt-52 pb-8 print:bg-gray-50 flex flex-col gap-6">
           <section className="flex-shrink-0">
             <h2 className="text-[9px] font-bold uppercase tracking-wider text-gray-500 mb-3 border-b border-gray-300 pb-1">
               Personal Details
@@ -95,7 +95,19 @@ export function ResumeTemplate({ data }: { data: ResumeData }) {
                 {interests.map((interest) => (
                   <div key={interest.title}>
                     <div className="font-semibold">{interest.title}</div>
-                    {interest.description && <div className="text-gray-600 text-[9px]">{interest.description}</div>}
+                    {interest.description && (
+                      <>
+                        {interest.title === "Technical Specialties" ? (
+                          <div className="space-y-1">
+                            {interest.description.split(" • ").map((item, idx) => (
+                              <div key={idx} className="text-gray-700 text-[9px]">• {item}</div>
+                            ))}
+                          </div>
+                        ) : (
+                          <div className="text-gray-600 text-[9px]">{interest.description}</div>
+                        )}
+                      </>
+                    )}
                   </div>
                 ))}
               </div>
@@ -103,19 +115,19 @@ export function ResumeTemplate({ data }: { data: ResumeData }) {
           )}
         </aside>
 
-        <main className="flex-1 px-6 py-6 flex flex-col justify-evenly">
+        <main className="flex-1 px-6 pt-24 pb-8 flex flex-col gap-5">
           <header className="flex-shrink-0 border-b-2 border-gray-900 pb-3">
             <h1 className="text-[26px] font-bold tracking-tight uppercase leading-none">{personalDetails.fullName}</h1>
             <p className="text-[13px] text-gray-600 mt-1.5">{personalDetails.title}</p>
           </header>
 
           <section className="flex-shrink-0">
-            <h2 className="text-[10px] font-bold uppercase tracking-wider text-gray-900 mb-2">Summary</h2>
-            <p className="text-gray-700 leading-[1.4]">{summary}</p>
+            <h2 className="text-[10px] font-bold uppercase tracking-wider text-gray-900 mb-3">Summary</h2>
+            <p className="text-gray-700 leading-[1.5]">{summary}</p>
           </section>
 
           <section className="flex-shrink-0">
-            <h2 className="text-[10px] font-bold uppercase tracking-wider text-gray-900 mb-2">Core Competencies</h2>
+            <h2 className="text-[10px] font-bold uppercase tracking-wider text-gray-900 mb-3">Core Competencies</h2>
             <div className="space-y-1">
               {skills.map((skill) => (
                 <div key={skill.category} className="leading-[1.4]">
@@ -127,8 +139,8 @@ export function ResumeTemplate({ data }: { data: ResumeData }) {
           </section>
 
           <section className="flex-1">
-            <h2 className="text-[10px] font-bold uppercase tracking-wider text-gray-900 mb-3">Experience</h2>
-            <div className="space-y-4">
+            <h2 className="text-[10px] font-bold uppercase tracking-wider text-gray-900 mb-4">Experience</h2>
+            <div className="space-y-5">
               {experience.map((exp) => (
                 <div key={`${exp.company}-${exp.position}`} className="border-l-2 border-gray-300 pl-3">
                   <div className="flex justify-between items-start">
@@ -137,17 +149,17 @@ export function ResumeTemplate({ data }: { data: ResumeData }) {
                         {exp.company}
                         {exp.industry && <span className="font-normal text-gray-500"> - {exp.industry}</span>}
                       </h3>
-                      <p className="text-gray-700">{exp.position}</p>
+                      <p className="text-gray-700 mt-0.5">{exp.position}</p>
                     </div>
                     <div className="text-right text-[9px] text-gray-500 shrink-0 ml-3">
                       <div>{exp.duration}</div>
                       <div>{exp.location}</div>
                     </div>
                   </div>
-                  <p className="text-[8px] text-gray-500 mt-1 mb-1.5 italic">{exp.technologies.join(" | ")}</p>
-                  <ul className="space-y-1">
+                  <p className="text-[8px] text-gray-500 mt-1.5 mb-2 italic">{exp.technologies.join(" | ")}</p>
+                  <ul className="space-y-1.5">
                     {exp.achievements.map((achievement, idx) => (
-                      <li key={idx} className="text-gray-700 flex leading-[1.35]">
+                      <li key={idx} className="text-gray-700 flex leading-[1.4]">
                         <span className="mr-1.5">•</span>
                         <span>{achievement}</span>
                       </li>

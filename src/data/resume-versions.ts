@@ -181,6 +181,14 @@ function getInterestsForVersion(version: ResumeVersion): ResumeData["interests"]
     });
   }
 
+  // Add Technical Specialties section (backend heavy positioning)
+  if (version.id !== "truth") {
+    base.push({
+      title: "Technical Specialties",
+      description: "PostgreSQL Database Design & Optimization • Python Data Processing & ETL Pipelines • Docker Containerization & CI/CD • System Integration & API Design • Team Leadership & Code Review Processes • React/Next.js Frontend Architecture",
+    });
+  }
+
   return base;
 }
 
@@ -275,42 +283,42 @@ function getAchievementsByRecency(exp: any, version: ResumeVersion, index: numbe
   const keyAchievements: Record<string, Record<string, string[]>> = {
     "Enso Coliving": {
       leadership: [
-        "Built entire tech stack from zero, generating €30k/month automated revenue",
-        "Led team of 4 developers, mentoring 2 from zero coding experience to production-ready",
-        "Architected data consolidation system (Notion/Airtable → PostgreSQL/Supabase)",
-        "Designed and implemented Row Level Security policies for sensitive financial data",
-        "Drove technical strategy and system architecture decisions for scalability",
-        "Established development workflows and code review processes across the team"
+        "Built entire tech stack from zero using Next.js 14, TypeScript, and PostgreSQL with Prisma ORM, generating €30k/month automated revenue",
+        "Led team of 4 developers, mentoring 2 from zero coding experience to production-ready using modern Git workflows and code review processes",
+        "Architected data consolidation system migrating from Notion/Airtable APIs to PostgreSQL with custom ETL pipelines and Supabase real-time subscriptions",
+        "Designed and implemented Row Level Security policies and database triggers for sensitive financial data compliance",
+        "Drove technical strategy implementing Docker containerization and GitHub Actions CI/CD for automated testing and deployment",
+        "Established development workflows using ESLint, Prettier, Husky pre-commit hooks, and comprehensive Jest/Cypress testing suites"
       ],
       product: [
-        "Architected data consolidation system (Notion/Airtable → PostgreSQL/Supabase)", 
-        "Built algorithmic tenant qualification system, reducing manual operations 90%",
-        "Created vector databases for AI tools and automated payment processing",
-        "Engineered Self-Serve Booking Engine with Stripe integration for automated revenue",
-        "Built Idealista-style property website with advanced map functionality",
-        "Designed intelligent matchmaking system for coliver compatibility analysis"
+        "Architected data consolidation system with custom APIs integrating Notion, Airtable, and Monday.com into unified PostgreSQL database with real-time sync", 
+        "Built algorithmic tenant qualification system using Python pandas for data analysis and machine learning scoring models, reducing manual operations 90%",
+        "Created vector databases using pgvector extension for semantic search and AI-powered property recommendations with OpenAI embeddings",
+        "Engineered Self-Serve Booking Engine with Stripe webhook integration, automated invoicing, and dynamic pricing algorithms for €30k/month revenue",
+        "Built Idealista-style property website with Mapbox GL integration, advanced filtering, and responsive design using Tailwind CSS",
+        "Designed intelligent matchmaking system analyzing user compatibility through JSON schema validation and recommendation algorithms"
       ],
       technical: [
-        "Built entire tech stack from zero using Next.js, PostgreSQL, and Python",
-        "Created vector databases for AI tools and automated payment processing",
-        "Generated €30k/month revenue first month after launch",
-        "Implemented complex SQL schemas and database optimization for performance",
-        "Built real-time data sync and user authentication systems with Supabase",
-        "Architected scalable serverless functions handling high-volume transactions"
+        "Built entire tech stack from zero using Next.js 14 with App Router, TypeScript, Tailwind CSS, and PostgreSQL with Supabase Edge Functions",
+        "Created vector databases using pgvector and implemented RAG (Retrieval-Augmented Generation) for AI tools with OpenAI GPT-4 integration",
+        "Generated €30k/month revenue implementing Stripe payment processing, webhook handling, and automated recurring billing systems",
+        "Implemented complex SQL schemas with foreign key constraints, indexes, and stored procedures for optimal query performance and data integrity",
+        "Built real-time data synchronization using Supabase realtime subscriptions, WebSocket connections, and optimistic UI updates",
+        "Architected serverless functions using Vercel Edge Runtime and Supabase Edge Functions for high-volume transaction processing and background jobs"
       ]
     },
     "Mindera": {
       leadership: [
-        "Led migration from legacy monoliths to React, reducing delivery cycles 40%",
-        "Architected multi-brand Design System across 3 global products",
-        "Drove React Native adoption for seamless web-mobile code sharing",
-        "Mentored junior developers and established TDD practices across teams"
+        "Led migration from legacy jQuery monoliths to modern React 18 with TypeScript, implementing micro-frontend architecture and reducing delivery cycles 40%",
+        "Architected multi-brand Design System using Storybook, styled-components, and design tokens across 3 global products serving 500k+ users",
+        "Drove React Native adoption with Expo for iOS/Android development, implementing shared business logic and 90% code reuse between platforms",
+        "Mentored junior developers establishing TDD practices with Jest, React Testing Library, and comprehensive E2E testing using Playwright"
       ],
       technical: [
-        "Built scalable React and React Native applications for UK/US clients",
-        "Implemented TDD and CI/CD, reducing production bugs by 60%",
-        "Developed high-performance frontend architectures for international markets",
-        "Integrated GraphQL APIs and optimized data fetching patterns for performance"
+        "Built scalable React applications with Redux Toolkit, React Query for server state management, and optimized bundle splitting for UK/US enterprise clients",
+        "Implemented comprehensive CI/CD pipelines using GitHub Actions, Docker multi-stage builds, and automated deployment to AWS ECS with blue-green strategy",
+        "Developed high-performance frontend architectures using Webpack 5 module federation, lazy loading, and service workers for offline-first PWA functionality",
+        "Integrated GraphQL APIs using Apollo Client, implemented caching strategies, optimistic updates, and real-time subscriptions for enhanced UX"
       ]
     },
     "Nomoko": {

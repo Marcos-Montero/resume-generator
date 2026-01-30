@@ -60,23 +60,28 @@ export default function HomePage() {
             minScale={0.3}
             maxScale={2}
             centerOnInit={true}
+            centerZoomedOut={true}
+            limitToBounds={false}
             wheel={{ step: 0.1 }}
             pinch={{ step: 5 }}
             doubleClick={{ step: 0.5, mode: "toggle" }}
+            panning={{ 
+              velocityDisabled: true,
+              lockAxisX: false,
+              lockAxisY: false 
+            }}
           >
             <TransformComponent 
               wrapperStyle={{ 
                 width: "100%", 
-                height: "100%",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center"
+                height: "100%"
               }}
               contentStyle={{
                 display: "flex",
                 alignItems: "center",
                 justifyContent: "center",
-                minHeight: "100%"
+                width: "100%",
+                height: "100%"
               }}
             >
               <div className="p-4">
