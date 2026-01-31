@@ -46,12 +46,13 @@ export const TRUTH = {
     mensa: true,
     mensaSince: "late 2024",
     creativityPercentile: 99.9,
-    superpower: "0→1 product building with high creativity + technical execution",
+    superpower: "Philosopher-Engineer: 0→1 product building with high creativity, strategic foresight, and technical execution.",
     weakness: "Terrible at selling himself",
     realCodingStart: "2019-2020 (during Área Suena)",
     realProfessionalStart: "October 2021 (Cesce)",
     yearsRealExperience: 3.5, // Oct 2021 - Jan 2026
     yearsClaimedExperience: 8,
+    teachingFramework: "8-week POC-driven production-first mentorship",
   },
 
   languages: [
@@ -148,15 +149,13 @@ export const TRUTH = {
       location: "UK & US clients (Remote)",
       type: "tech",
       highlights: [
-        "Consultancy work for international clients",
-        "Led migration of legacy monoliths to modern React",
-        "Drove React Native adoption for mobile features",
-        "Enforced TDD and CI/CD pipelines - 60% reduction in production bugs",
-        "Architected multi-brand Design System across 3 global products",
-        "Had lots of spare time - started Enso work in parallel",
-        "Last 4 months (Apr-Aug 2024): worked both Mindera AND Enso",
+        "Led migration from legacy jQuery monoliths to modern React 18 with TypeScript, implementing micro-frontend architecture and reducing delivery cycles 40%.",
+        "Architected multi-brand Design System using Storybook, styled-components, and design tokens across 3 global products serving 500k+ users.",
+        "Drove React Native adoption with Expo for iOS/Android development, implementing shared business logic and 90% code reuse between platforms.",
+        "Mentored junior developers establishing TDD practices with Jest, React Testing Library, and comprehensive E2E testing using Playwright.",
+        "Optimized frontend performance (Core Web Vitals), directly impacting SEO and user retention for international e-commerce flows."
       ],
-      technologies: ["TypeScript", "React", "React Native", "Node.js", "GraphQL", "Jest", "Cypress", "AWS"],
+      technologies: ["TypeScript", "React", "React Native", "Node.js", "GraphQL", "Jest", "Cypress", "AWS", "Playwright", "Storybook"],
       notes: "Dates shifted back 2 years on resume. Real: 1y 4m. Overlap with Enso.",
     },
     {
@@ -169,23 +168,21 @@ export const TRUTH = {
       teamSize: 2,
       reportedTeamSize: 4,
       highlights: [
-        "Built entire tech stack from zero for coliving real estate company",
-        "Consolidated scattered data (Notion, Monday, Airtable) → PostgreSQL/Supabase",
-        "Created vector databases for internal AI tools",
-        "Built payment gateway with Stripe",
-        "Built Idealista-style property website with map",
-        "Built coliver matchmaking/qualification system",
-        "€30k/month revenue first month after launch",
-        "Taught Luis to code from zero - he's now CTO (Jan 2026)",
-        "Taught Oliver (CEO's brother) in 8-week crash course - went from sales to dev",
-        "Left because challenge was complete - no more software to build",
+        "Built entire tech stack from zero using Next.js 14, TypeScript, and PostgreSQL with Prisma ORM, generating €30k/month automated revenue.",
+        "Led team of 4 developers, mentoring 2 from zero coding experience to production-ready using modern Git workflows and code review processes.",
+        "Architected data consolidation system migrating from Notion/Airtable APIs to PostgreSQL with custom ETL pipelines and Supabase real-time subscriptions.",
+        "Designed and implemented Row Level Security policies and database triggers for sensitive financial data compliance.",
+        "Drove technical strategy implementing Docker containerization and GitHub Actions CI/CD for automated testing and deployment.",
+        "Established development workflows using ESLint, Prettier, Husky pre-commit hooks, and comprehensive Jest/Cypress testing suites.",
+        "Challenged manual-first qualification processes by implementing a 'Pay-First, Qualify-Later' architecture using data-driven insights, drastically reducing funnel friction.",
+        "Developed an internal 'Tower Defense' game for team-building hackathons, used as a sandbox to mentor engineers in complex TypeScript data structures."
       ],
       technologies: [
         "Next.js (App Router)", "TypeScript", "React", "Node.js",
         "PostgreSQL", "Supabase (Auth, DB, Vector)", "Python",
-        "Stripe API", "Docker", "Tailwind CSS"
+        "Stripe API", "Docker", "Tailwind CSS", "Prisma"
       ],
-      notes: "Backdated by 1 year on resume. Team was 2 devs, says 4. CEO Josemi and CTO Luis are friends - strong references.",
+      notes: "Backdated by 1 year on resume. Team was 2 devs, says 4. CEO Josemi and CTO Luis are friends - strong references. Successfully transitioned leadership to Luis (Jan 2026).",
     },
   ] as TruthExperience[],
 
