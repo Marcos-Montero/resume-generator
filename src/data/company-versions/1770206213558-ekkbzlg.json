@@ -1,0 +1,1724 @@
+{
+  "companyId": "1770206213558-ekkbzlg",
+  "companyName": "Keelvar",
+  "versions": [
+    {
+      "id": "1770206213558-ik7fr0j",
+      "companyId": "1770206213558-ekkbzlg",
+      "companyName": "Keelvar",
+      "jobTitle": "Senior Product Engineer Backend heavy",
+      "jobDescription": "Node and Python for Backend, Vue for frontend.\nDashboard creation, matching vendors-customers plantform, heavy backend, ",
+      "notes": "Emphasize my product mindset, stakeholder management, project/product management. Emphasize my backend skills primarily Node in start ups and Python for Data heavy ops and AI, profficiency Backend, typescript, react and Vue for frontend, tanstack, next js, \nWhat I will be doing in my desired job at keelvar: Dashboard creation, matching vendors-customers plantform, heavy backend. Add some AWS and infra that they maybe using, not like im an expert, but strong familiiarity with them.\nMake sure you stick to current length, make only changes that substitute the curernt content, without making it longer than it is",
+      "baseVersionId": "product-engineer",
+      "resumeData": {
+        "personalDetails": {
+          "fullName": "Marcos Montero",
+          "title": "Senior Product Engineer (Backend Focus)",
+          "phone": "+34 696013104",
+          "email": "marcos.mon.rod@gmail.com",
+          "linkedin": "/in/-marcos-montero",
+          "github": "/Marcos-Montero",
+          "location": "Madrid, Spain"
+        },
+        "summary": "Product-minded Senior Engineer with 8+ years of experience driving technical execution and delivering business value. Expertise in backend development (Node.js, Python) and full-stack capabilities (React, Next.js, Vue). Focused on building data-driven products and matching platform solutions.",
+        "languages": [
+          {
+            "name": "Spanish",
+            "level": "Native (C2)"
+          },
+          {
+            "name": "English",
+            "level": "Professional (C1)"
+          },
+          {
+            "name": "Euskera",
+            "level": "Conversational (B1)"
+          }
+        ],
+        "education": [
+          {
+            "institution": "Boot.dev",
+            "degree": "Computer Science & Backend Engineering",
+            "description": "Go, Docker, Algorithms"
+          },
+          {
+            "institution": "Frontend Masters",
+            "degree": "Advanced React, Next.js, & System Architecture paths"
+          },
+          {
+            "institution": "Complutense University of Madrid",
+            "degree": "Bachelor's Degree in Philosophy",
+            "year": "2017"
+          }
+        ],
+        "memberships": [
+          {
+            "organization": "Mensa International",
+            "role": "Member",
+            "since": "2024"
+          }
+        ],
+        "interests": [
+          {
+            "title": "Mensa International",
+            "description": "Member & active collaborator"
+          },
+          {
+            "title": "AI & Data Products",
+            "description": "Currently developing AI-powered tools using modern LLM APIs and vector databases"
+          },
+          {
+            "title": "Technical Specialties",
+            "description": "PostgreSQL Database Design & Optimization • Python Data Processing & ETL Pipelines • Docker Containerization & CI/CD • System Integration & API Design • Team Leadership & Code Review Processes • React/Next.js Frontend Architecture"
+          }
+        ],
+        "skills": [
+          {
+            "category": "Core Backend",
+            "items": [
+              "Node.js",
+              "Python",
+              "TypeScript",
+              "PostgreSQL",
+              "Data Migration",
+              "API Design"
+            ]
+          },
+          {
+            "category": "Frontend & Frameworks",
+            "items": [
+              "React",
+              "Next.js",
+              "Vue",
+              "Tanstack",
+              "Supabase"
+            ]
+          },
+          {
+            "category": "Data & AI",
+            "items": [
+              "Vector DBs",
+              "OpenAI API",
+              "RAG"
+            ]
+          },
+          {
+            "category": "Infra & Cloud",
+            "items": [
+              "Docker",
+              "AWS (Familiar)"
+            ]
+          }
+        ],
+        "experience": [
+          {
+            "company": "Enso Coliving",
+            "industry": "Real Estate",
+            "position": "Founding Tech Lead / CTO",
+            "duration": "Apr 2023 – Oct 2025",
+            "location": "Madrid",
+            "technologies": [
+              "Next.js (App Router)",
+              "TypeScript",
+              "React",
+              "Node.js",
+              "PostgreSQL",
+              "Supabase (Auth, DB, Vector)",
+              "Python",
+              "Stripe API"
+            ],
+            "achievements": [
+              "Engineered Self-Serve Booking Engine with Stripe webhook integration, automated invoicing, and dynamic pricing algorithms for €30k/month revenue",
+              "Built algorithmic tenant qualification system using Python pandas for data analysis and machine learning scoring models, reducing manual operations 90%",
+              "Architected data consolidation system with custom APIs integrating Notion, Airtable, and Monday.com into unified PostgreSQL database with real-time sync",
+              "Created vector databases using pgvector extension for semantic search and AI-powered property recommendations with OpenAI embeddings",
+              "Built Idealista-style property website with Mapbox GL integration, advanced filtering, and responsive design using Tailwind CSS",
+              "Designed intelligent matchmaking system analyzing user compatibility through JSON schema validation and recommendation algorithms"
+            ]
+          },
+          {
+            "company": "Mindera",
+            "position": "Senior Frontend Engineer / Frontend Architect",
+            "duration": "Apr 2021 – Apr 2023",
+            "location": "UK & US clients (Remote)",
+            "technologies": [
+              "TypeScript",
+              "React",
+              "React Native",
+              "Node.js",
+              "GraphQL",
+              "Jest"
+            ],
+            "achievements": [
+              "Built scalable React applications with Redux Toolkit, React Query for server state management, and optimized bundle splitting for UK/US enterprise clients",
+              "Implemented comprehensive CI/CD pipelines using GitHub Actions, Docker multi-stage builds, and automated deployment to AWS ECS with blue-green strategy",
+              "Developed high-performance frontend architectures using Webpack 5 module federation, lazy loading, and service workers for offline-first PWA functionality",
+              "Integrated GraphQL APIs using Apollo Client, implemented caching strategies, optimistic updates, and real-time subscriptions for enhanced UX"
+            ]
+          },
+          {
+            "company": "Nomoko",
+            "position": "Senior Frontend Engineer",
+            "duration": "Jan 2020 – Apr 2021",
+            "location": "Switzerland (Remote from Madrid)",
+            "technologies": [
+              "JavaScript (ES6+)",
+              "React",
+              "Redux",
+              "WebGL/Three.js"
+            ],
+            "achievements": [
+              "Engineered high-performance 3D data visualization with 60fps rendering",
+              "Built component architecture for rapid Real Estate product prototyping",
+              "Implemented WebGL/Three.js solutions for complex geospatial data rendering",
+              "Optimized massive dataset handling and real-time visualization performance"
+            ]
+          },
+          {
+            "company": "Cesce",
+            "position": "Frontend Developer",
+            "duration": "Sep 2017 – Jan 2020",
+            "location": "Madrid",
+            "technologies": [
+              "JavaScript",
+              "React",
+              "HTML5/SCSS"
+            ],
+            "achievements": [
+              "Developed regulatory-compliant interfaces for financial risk analysis",
+              "Built production systems serving 20k+ B2B customers with 100% uptime"
+            ]
+          }
+        ],
+        "projects": []
+      },
+      "createdAt": "2026-02-04T11:56:53.558Z",
+      "updatedAt": "2026-02-04T12:26:20.401Z",
+      "version": 1,
+      "llmPromptUsed": "Tailor this resume for a Senior Product Engineer Backend heavy position at Keelvar.\n\n## CURRENT RESUME:\n```json\n{\n  \"personalDetails\": {\n    \"fullName\": \"Marcos Montero\",\n    \"phone\": \"+34 696013104\",\n    \"email\": \"marcos.mon.rod@gmail.com\",\n    \"linkedin\": \"/in/-marcos-montero\",\n    \"github\": \"/Marcos-Montero\",\n    \"location\": \"Madrid, Spain\",\n    \"title\": \"Senior Product Engineer (AI & Data)\"\n  },\n  \"summary\": \"Product-minded Senior Engineer with 8+ years of experience bridging technical execution with business impact. Expert in full-stack development (React, Next.js, Node.js) and data engineering (PostgreSQL, Python). Currently focused on AI integration and building data-driven products that generate measurable revenue growth.\",\n  \"languages\": [\n    {\n      \"name\": \"Spanish\",\n      \"level\": \"Native (C2)\"\n    },\n    {\n      \"name\": \"English\",\n      \"level\": \"Professional (C1)\"\n    },\n    {\n      \"name\": \"Euskera\",\n      \"level\": \"Conversational (B1)\"\n    }\n  ],\n  \"education\": [\n    {\n      \"institution\": \"Boot.dev\",\n      \"degree\": \"Computer Science & Backend Engineering\",\n      \"description\": \"Go, Docker, Algorithms\"\n    },\n    {\n      \"institution\": \"Frontend Masters\",\n      \"degree\": \"Advanced React, Next.js, & System Architecture paths\"\n    },\n    {\n      \"institution\": \"Complutense University of Madrid\",\n      \"degree\": \"Bachelor's Degree in Philosophy\",\n      \"year\": \"2017\"\n    }\n  ],\n  \"memberships\": [\n    {\n      \"organization\": \"Mensa International\",\n      \"role\": \"Member\",\n      \"since\": \"2024\"\n    }\n  ],\n  \"interests\": [\n    {\n      \"title\": \"Mensa International\",\n      \"description\": \"Member & active collaborator\"\n    },\n    {\n      \"title\": \"AI & Data Products\",\n      \"description\": \"Currently developing AI-powered tools using modern LLM APIs and vector databases\"\n    },\n    {\n      \"title\": \"Technical Specialties\",\n      \"description\": \"PostgreSQL Database Design & Optimization • Python Data Processing & ETL Pipelines • Docker Containerization & CI/CD • System Integration & API Design • Team Leadership & Code Review Processes • React/Next.js Frontend Architecture\"\n    }\n  ],\n  \"skills\": [\n    {\n      \"category\": \"Core Stack\",\n      \"items\": [\n        \"TypeScript\",\n        \"React\",\n        \"Next.js\",\n        \"Node.js\",\n        \"PostgreSQL\",\n        \"Python\"\n      ]\n    },\n    {\n      \"category\": \"Data & AI\",\n      \"items\": [\n        \"Supabase\",\n        \"Vector DBs\",\n        \"OpenAI API\",\n        \"RAG\",\n        \"Data Migration\"\n      ]\n    }\n  ],\n  \"experience\": [\n    {\n      \"company\": \"Enso Coliving\",\n      \"industry\": \"Real Estate\",\n      \"position\": \"Founding Tech Lead / CTO\",\n      \"duration\": \"Apr 2023 – Oct 2025\",\n      \"location\": \"Madrid\",\n      \"technologies\": [\n        \"Next.js (App Router)\",\n        \"TypeScript\",\n        \"React\",\n        \"Node.js\",\n        \"PostgreSQL\",\n        \"Supabase (Auth, DB, Vector)\",\n        \"Python\",\n        \"Stripe API\"\n      ],\n      \"achievements\": [\n        \"Architected data consolidation system with custom APIs integrating Notion, Airtable, and Monday.com into unified PostgreSQL database with real-time sync\",\n        \"Built algorithmic tenant qualification system using Python pandas for data analysis and machine learning scoring models, reducing manual operations 90%\",\n        \"Created vector databases using pgvector extension for semantic search and AI-powered property recommendations with OpenAI embeddings\",\n        \"Engineered Self-Serve Booking Engine with Stripe webhook integration, automated invoicing, and dynamic pricing algorithms for €30k/month revenue\",\n        \"Built Idealista-style property website with Mapbox GL integration, advanced filtering, and responsive design using Tailwind CSS\",\n        \"Designed intelligent matchmaking system analyzing user compatibility through JSON schema validation and recommendation algorithms\"\n      ]\n    },\n    {\n      \"company\": \"Mindera\",\n      \"position\": \"Senior Frontend Engineer / Frontend Architect\",\n      \"duration\": \"Apr 2021 – Apr 2023\",\n      \"location\": \"UK & US clients (Remote)\",\n      \"technologies\": [\n        \"TypeScript\",\n        \"React\",\n        \"React Native\",\n        \"Node.js\",\n        \"GraphQL\",\n        \"Jest\"\n      ],\n      \"achievements\": [\n        \"Built scalable React applications with Redux Toolkit, React Query for server state management, and optimized bundle splitting for UK/US enterprise clients\",\n        \"Implemented comprehensive CI/CD pipelines using GitHub Actions, Docker multi-stage builds, and automated deployment to AWS ECS with blue-green strategy\",\n        \"Developed high-performance frontend architectures using Webpack 5 module federation, lazy loading, and service workers for offline-first PWA functionality\",\n        \"Integrated GraphQL APIs using Apollo Client, implemented caching strategies, optimistic updates, and real-time subscriptions for enhanced UX\"\n      ]\n    },\n    {\n      \"company\": \"Nomoko\",\n      \"position\": \"Senior Frontend Engineer\",\n      \"duration\": \"Jan 2020 – Apr 2021\",\n      \"location\": \"Switzerland (Remote from Madrid)\",\n      \"technologies\": [\n        \"JavaScript (ES6+)\",\n        \"React\",\n        \"Redux\",\n        \"WebGL/Three.js\"\n      ],\n      \"achievements\": [\n        \"Engineered high-performance 3D data visualization with 60fps rendering\",\n        \"Built component architecture for rapid Real Estate product prototyping\",\n        \"Implemented WebGL/Three.js solutions for complex geospatial data rendering\",\n        \"Optimized massive dataset handling and real-time visualization performance\"\n      ]\n    },\n    {\n      \"company\": \"Cesce\",\n      \"position\": \"Frontend Developer\",\n      \"duration\": \"Sep 2017 – Jan 2020\",\n      \"location\": \"Madrid\",\n      \"technologies\": [\n        \"JavaScript\",\n        \"React\",\n        \"HTML5/SCSS\"\n      ],\n      \"achievements\": [\n        \"Developed regulatory-compliant interfaces for financial risk analysis\",\n        \"Built production systems serving 20k+ B2B customers with 100% uptime\"\n      ]\n    }\n  ],\n  \"projects\": []\n}\n```\n\n## JOB DESCRIPTION:\n```\nNode and Python for Backend, Vue for frontend.\nDashboard creation, matching vendors-customers plantform, heavy backend, \n```\n\n## ADDITIONAL INSTRUCTIONS FROM USER:\nEmphasize my product mindset, stakeholder management, project/product management. Emphasize my backend skills primarily Node in start ups and Python for Data heavy ops and AI, profficiency Backend, typescript, react and Vue for frontend, tanstack, next js, \nWhat I will be doing in my desired job at keelvar: Dashboard creation, matching vendors-customers plantform, heavy backend. Add some AWS and infra that they maybe using, not like im an expert, but strong familiiarity with them.\nMake sure you stick to current length, make only changes that substitute the curernt content, without making it longer than it is\n\nTailor the resume to maximize relevance for this specific opportunity while maintaining 100% truthfulness. Return ONLY the JSON resume object."
+    },
+    {
+      "id": "1770208029152-rjiinmt",
+      "companyId": "1770206213558-ekkbzlg",
+      "companyName": "Keelvar",
+      "jobTitle": "Senior Product Engineer Backend heavy",
+      "jobDescription": "Node and Python for Backend, Vue for frontend.\nDashboard creation, matching vendors-customers plantform, heavy backend, ",
+      "notes": "Emphasize my product mindset, stakeholder management, project/product management. Emphasize my backend skills primarily Node in start ups and Python for Data heavy ops and AI, profficiency Backend, typescript, react and Vue for frontend, tanstack, next js, \nWhat I will be doing in my desired job at keelvar: Dashboard creation, matching vendors-customers plantform, heavy backend. Add some AWS and infra that they maybe using, not like im an expert, but strong familiiarity with them.\nMake sure you stick to current length, make only changes that substitute the curernt content, without making it longer than it is",
+      "baseVersionId": "product-engineer",
+      "resumeData": {
+        "personalDetails": {
+          "fullName": "Marcos Montero",
+          "title": "Senior Product Engineer (Backend Focus)",
+          "phone": "+34 696013104",
+          "email": "marcos.mon.rod@gmail.com",
+          "linkedin": "/in/-marcos-montero",
+          "github": "/Marcos-Montero",
+          "location": "Madrid, Spain"
+        },
+        "summary": "Product-minded Senior Engineer with 8+ years of experience driving technical execution and delivering business value. Expertise in backend development (Node.js, Python) and full-stack capabilities (Vue, React, Next.js). Focused on building data-driven products and matching platform solutions.",
+        "languages": [
+          {
+            "name": "Spanish",
+            "level": "Native (C2)"
+          },
+          {
+            "name": "English",
+            "level": "Professional (C1)"
+          },
+          {
+            "name": "Euskera",
+            "level": "Conversational (B1)"
+          }
+        ],
+        "education": [
+          {
+            "institution": "Boot.dev",
+            "degree": "Computer Science & Backend Engineering",
+            "description": "Go, Docker, Algorithms"
+          },
+          {
+            "institution": "Frontend Masters",
+            "degree": "Advanced React, Next.js, & System Architecture paths"
+          },
+          {
+            "institution": "Complutense University of Madrid",
+            "degree": "Bachelor's Degree in Philosophy",
+            "year": "2017"
+          }
+        ],
+        "memberships": [
+          {
+            "organization": "Mensa International",
+            "role": "Member",
+            "since": "2024"
+          }
+        ],
+        "interests": [
+          {
+            "title": "Mensa International",
+            "description": "Member & active collaborator"
+          },
+          {
+            "title": "AI & Data Products",
+            "description": "Currently developing AI-powered tools using modern LLM APIs and vector databases"
+          },
+          {
+            "title": "Technical Specialties",
+            "description": "PostgreSQL Database Design & Optimization • Python Data Processing & ETL Pipelines • Docker Containerization & CI/CD • System Integration & API Design • Team Leadership & Code Review Processes • React/Next.js Frontend Architecture"
+          }
+        ],
+        "skills": [
+          {
+            "category": "Core Backend",
+            "items": [
+              "Node.js",
+              "Python",
+              "TypeScript",
+              "PostgreSQL",
+              "Data Migration",
+              "API Design"
+            ]
+          },
+          {
+            "category": "Frontend & Frameworks",
+            "items": [
+              "Vue",
+              "React",
+              "Next.js",
+              "Tanstack",
+              "Supabase"
+            ]
+          },
+          {
+            "category": "Data & AI",
+            "items": [
+              "Vector DBs",
+              "OpenAI API",
+              "RAG"
+            ]
+          },
+          {
+            "category": "Infra & Cloud",
+            "items": [
+              "Docker",
+              "AWS (Familiar)"
+            ]
+          },
+          {
+            "category": "Project Management & Leadership",
+            "items": [
+              "Stakeholder Management",
+              "Team Leadership",
+              "Ownership",
+              "Product Management"
+            ]
+          }
+        ],
+        "experience": [
+          {
+            "company": "Enso Coliving",
+            "industry": "Real Estate",
+            "position": "Founding Tech Lead / CTO",
+            "duration": "Apr 2023 – Oct 2025",
+            "location": "Madrid",
+            "technologies": [
+              "Next.js (App Router)",
+              "TypeScript",
+              "React",
+              "Node.js",
+              "PostgreSQL",
+              "Supabase (Auth, DB, Vector)",
+              "Python",
+              "Stripe API"
+            ],
+            "achievements": [
+              "Engineered Self-Serve Booking Engine with Stripe webhook integration, automated invoicing, and dynamic pricing algorithms for €30k/month revenue",
+              "Built algorithmic tenant qualification system using Python pandas for data analysis and machine learning scoring models, reducing manual operations 90%",
+              "Architected data consolidation system with custom APIs integrating Notion, Airtable, and Monday.com into unified PostgreSQL database with real-time sync",
+              "Created vector databases using pgvector extension for semantic search and AI-powered property recommendations with OpenAI embeddings",
+              "Built Idealista-style property website with Mapbox GL integration, advanced filtering, and responsive design using Tailwind CSS",
+              "Designed intelligent matchmaking system analyzing user compatibility through JSON schema validation and recommendation algorithms"
+            ]
+          },
+          {
+            "company": "Mindera",
+            "position": "Senior Frontend Engineer / Frontend Architect",
+            "duration": "Apr 2021 – Apr 2023",
+            "location": "UK & US clients (Remote)",
+            "technologies": [
+              "TypeScript",
+              "React",
+              "React Native",
+              "Node.js",
+              "GraphQL",
+              "Jest"
+            ],
+            "achievements": [
+              "Built scalable React applications with Redux Toolkit, React Query for server state management, and optimized bundle splitting for UK/US enterprise clients",
+              "Implemented comprehensive CI/CD pipelines using GitHub Actions, Docker multi-stage builds, and automated deployment to AWS ECS with blue-green strategy",
+              "Developed high-performance frontend architectures using Webpack 5 module federation, lazy loading, and service workers for offline-first PWA functionality",
+              "Integrated GraphQL APIs using Apollo Client, implemented caching strategies, optimistic updates, and real-time subscriptions for enhanced UX"
+            ]
+          },
+          {
+            "company": "Nomoko",
+            "position": "Senior Frontend Engineer",
+            "duration": "Jan 2020 – Apr 2021",
+            "location": "Switzerland (Remote from Madrid)",
+            "technologies": [
+              "JavaScript (ES6+)",
+              "React",
+              "Redux",
+              "WebGL/Three.js"
+            ],
+            "achievements": [
+              "Engineered high-performance 3D data visualization with 60fps rendering",
+              "Built component architecture for rapid Real Estate product prototyping",
+              "Implemented WebGL/Three.js solutions for complex geospatial data rendering",
+              "Optimized massive dataset handling and real-time visualization performance"
+            ]
+          },
+          {
+            "company": "Cesce",
+            "position": "Frontend Developer",
+            "duration": "Sep 2017 – Jan 2020",
+            "location": "Madrid",
+            "technologies": [
+              "JavaScript",
+              "React",
+              "HTML5/SCSS"
+            ],
+            "achievements": [
+              "Developed regulatory-compliant interfaces for financial risk analysis",
+              "Built production systems serving 20k+ B2B customers with 100% uptime"
+            ]
+          }
+        ],
+        "projects": []
+      },
+      "createdAt": "2026-02-04T12:27:09.152Z",
+      "updatedAt": "2026-02-04T12:27:09.152Z",
+      "version": 2,
+      "llmPromptUsed": "Modify this resume according to the user's instructions.\n\n## CURRENT RESUME:\n```json\n{\n  \"personalDetails\": {\n    \"fullName\": \"Marcos Montero\",\n    \"title\": \"Senior Product Engineer (Backend Focus)\",\n    \"phone\": \"+34 696013104\",\n    \"email\": \"marcos.mon.rod@gmail.com\",\n    \"linkedin\": \"/in/-marcos-montero\",\n    \"github\": \"/Marcos-Montero\",\n    \"location\": \"Madrid, Spain\"\n  },\n  \"summary\": \"Product-minded Senior Engineer with 8+ years of experience driving technical execution and delivering business value. Expertise in backend development (Node.js, Python) and full-stack capabilities (React, Next.js, Vue). Focused on building data-driven products and matching platform solutions.\",\n  \"languages\": [\n    {\n      \"name\": \"Spanish\",\n      \"level\": \"Native (C2)\"\n    },\n    {\n      \"name\": \"English\",\n      \"level\": \"Professional (C1)\"\n    },\n    {\n      \"name\": \"Euskera\",\n      \"level\": \"Conversational (B1)\"\n    }\n  ],\n  \"education\": [\n    {\n      \"institution\": \"Boot.dev\",\n      \"degree\": \"Computer Science & Backend Engineering\",\n      \"description\": \"Go, Docker, Algorithms\"\n    },\n    {\n      \"institution\": \"Frontend Masters\",\n      \"degree\": \"Advanced React, Next.js, & System Architecture paths\"\n    },\n    {\n      \"institution\": \"Complutense University of Madrid\",\n      \"degree\": \"Bachelor's Degree in Philosophy\",\n      \"year\": \"2017\"\n    }\n  ],\n  \"memberships\": [\n    {\n      \"organization\": \"Mensa International\",\n      \"role\": \"Member\",\n      \"since\": \"2024\"\n    }\n  ],\n  \"interests\": [\n    {\n      \"title\": \"Mensa International\",\n      \"description\": \"Member & active collaborator\"\n    },\n    {\n      \"title\": \"AI & Data Products\",\n      \"description\": \"Currently developing AI-powered tools using modern LLM APIs and vector databases\"\n    },\n    {\n      \"title\": \"Technical Specialties\",\n      \"description\": \"PostgreSQL Database Design & Optimization • Python Data Processing & ETL Pipelines • Docker Containerization & CI/CD • System Integration & API Design • Team Leadership & Code Review Processes • React/Next.js Frontend Architecture\"\n    }\n  ],\n  \"skills\": [\n    {\n      \"category\": \"Core Backend\",\n      \"items\": [\n        \"Node.js\",\n        \"Python\",\n        \"TypeScript\",\n        \"PostgreSQL\",\n        \"Data Migration\",\n        \"API Design\"\n      ]\n    },\n    {\n      \"category\": \"Frontend & Frameworks\",\n      \"items\": [\n        \"React\",\n        \"Next.js\",\n        \"Vue\",\n        \"Tanstack\",\n        \"Supabase\"\n      ]\n    },\n    {\n      \"category\": \"Data & AI\",\n      \"items\": [\n        \"Vector DBs\",\n        \"OpenAI API\",\n        \"RAG\"\n      ]\n    },\n    {\n      \"category\": \"Infra & Cloud\",\n      \"items\": [\n        \"Docker\",\n        \"AWS (Familiar)\"\n      ]\n    }\n  ],\n  \"experience\": [\n    {\n      \"company\": \"Enso Coliving\",\n      \"industry\": \"Real Estate\",\n      \"position\": \"Founding Tech Lead / CTO\",\n      \"duration\": \"Apr 2023 – Oct 2025\",\n      \"location\": \"Madrid\",\n      \"technologies\": [\n        \"Next.js (App Router)\",\n        \"TypeScript\",\n        \"React\",\n        \"Node.js\",\n        \"PostgreSQL\",\n        \"Supabase (Auth, DB, Vector)\",\n        \"Python\",\n        \"Stripe API\"\n      ],\n      \"achievements\": [\n        \"Engineered Self-Serve Booking Engine with Stripe webhook integration, automated invoicing, and dynamic pricing algorithms for €30k/month revenue\",\n        \"Built algorithmic tenant qualification system using Python pandas for data analysis and machine learning scoring models, reducing manual operations 90%\",\n        \"Architected data consolidation system with custom APIs integrating Notion, Airtable, and Monday.com into unified PostgreSQL database with real-time sync\",\n        \"Created vector databases using pgvector extension for semantic search and AI-powered property recommendations with OpenAI embeddings\",\n        \"Built Idealista-style property website with Mapbox GL integration, advanced filtering, and responsive design using Tailwind CSS\",\n        \"Designed intelligent matchmaking system analyzing user compatibility through JSON schema validation and recommendation algorithms\"\n      ]\n    },\n    {\n      \"company\": \"Mindera\",\n      \"position\": \"Senior Frontend Engineer / Frontend Architect\",\n      \"duration\": \"Apr 2021 – Apr 2023\",\n      \"location\": \"UK & US clients (Remote)\",\n      \"technologies\": [\n        \"TypeScript\",\n        \"React\",\n        \"React Native\",\n        \"Node.js\",\n        \"GraphQL\",\n        \"Jest\"\n      ],\n      \"achievements\": [\n        \"Built scalable React applications with Redux Toolkit, React Query for server state management, and optimized bundle splitting for UK/US enterprise clients\",\n        \"Implemented comprehensive CI/CD pipelines using GitHub Actions, Docker multi-stage builds, and automated deployment to AWS ECS with blue-green strategy\",\n        \"Developed high-performance frontend architectures using Webpack 5 module federation, lazy loading, and service workers for offline-first PWA functionality\",\n        \"Integrated GraphQL APIs using Apollo Client, implemented caching strategies, optimistic updates, and real-time subscriptions for enhanced UX\"\n      ]\n    },\n    {\n      \"company\": \"Nomoko\",\n      \"position\": \"Senior Frontend Engineer\",\n      \"duration\": \"Jan 2020 – Apr 2021\",\n      \"location\": \"Switzerland (Remote from Madrid)\",\n      \"technologies\": [\n        \"JavaScript (ES6+)\",\n        \"React\",\n        \"Redux\",\n        \"WebGL/Three.js\"\n      ],\n      \"achievements\": [\n        \"Engineered high-performance 3D data visualization with 60fps rendering\",\n        \"Built component architecture for rapid Real Estate product prototyping\",\n        \"Implemented WebGL/Three.js solutions for complex geospatial data rendering\",\n        \"Optimized massive dataset handling and real-time visualization performance\"\n      ]\n    },\n    {\n      \"company\": \"Cesce\",\n      \"position\": \"Frontend Developer\",\n      \"duration\": \"Sep 2017 – Jan 2020\",\n      \"location\": \"Madrid\",\n      \"technologies\": [\n        \"JavaScript\",\n        \"React\",\n        \"HTML5/SCSS\"\n      ],\n      \"achievements\": [\n        \"Developed regulatory-compliant interfaces for financial risk analysis\",\n        \"Built production systems serving 20k+ B2B customers with 100% uptime\"\n      ]\n    }\n  ],\n  \"projects\": []\n}\n```\n\n## TARGET JOB DESCRIPTION:\n```\nNode and Python for Backend, Vue for frontend.\nDashboard creation, matching vendors-customers plantform, heavy backend, \n```\n\n## USER INSTRUCTIONS:\nadd project management, stakeholder management, leadership and ownership.\n\nApply the requested changes while maintaining truthfulness. Return the JSON with resumeData, changeSummary, and changes array.",
+      "changeSummary": "Added skills related to project management, stakeholder management, leadership and ownership to the skills section. Modified the summary to include Vue.",
+      "changes": [
+        {
+          "section": "skills",
+          "field": "Project Management & Leadership",
+          "description": "Added category with skills related to project management and leadership"
+        },
+        {
+          "section": "summary",
+          "field": "summary",
+          "description": "Added Vue to the summary"
+        },
+        {
+          "section": "skills",
+          "field": "Frontend & Frameworks",
+          "description": "Moved Vue to the first position"
+        }
+      ]
+    },
+    {
+      "id": "1770208186375-l0vuucg",
+      "companyId": "1770206213558-ekkbzlg",
+      "companyName": "Keelvar",
+      "jobTitle": "Senior Product Engineer Backend heavy",
+      "jobDescription": "Node and Python for Backend, Vue for frontend.\nDashboard creation, matching vendors-customers plantform, heavy backend, ",
+      "notes": "Emphasize my product mindset, stakeholder management, project/product management. Emphasize my backend skills primarily Node in start ups and Python for Data heavy ops and AI, profficiency Backend, typescript, react and Vue for frontend, tanstack, next js, \nWhat I will be doing in my desired job at keelvar: Dashboard creation, matching vendors-customers plantform, heavy backend. Add some AWS and infra that they maybe using, not like im an expert, but strong familiiarity with them.\nMake sure you stick to current length, make only changes that substitute the curernt content, without making it longer than it is",
+      "baseVersionId": "product-engineer",
+      "resumeData": {
+        "personalDetails": {
+          "fullName": "Marcos Montero",
+          "title": "Senior Product Engineer (Backend Focus)",
+          "phone": "+34 696013104",
+          "email": "marcos.mon.rod@gmail.com",
+          "linkedin": "/in/-marcos-montero",
+          "github": "/Marcos-Montero",
+          "location": "Madrid, Spain"
+        },
+        "summary": "Product-minded Senior Engineer with 8+ years of experience driving technical execution and delivering business value. Expertise in backend development (Node.js, Python) and full-stack capabilities (Vue, React, Next.js). Focused on building data-driven products and matching platform solutions.",
+        "languages": [
+          {
+            "name": "Spanish",
+            "level": "Native (C2)"
+          },
+          {
+            "name": "English",
+            "level": "Professional (C1)"
+          },
+          {
+            "name": "Euskera",
+            "level": "Conversational (B1)"
+          }
+        ],
+        "education": [
+          {
+            "institution": "Boot.dev",
+            "degree": "Computer Science & Backend Engineering",
+            "description": "Go, Docker, Algorithms"
+          },
+          {
+            "institution": "Frontend Masters",
+            "degree": "Advanced React, Next.js, & System Architecture paths"
+          },
+          {
+            "institution": "Complutense University of Madrid",
+            "degree": "Bachelor's Degree in Philosophy",
+            "year": "2017"
+          }
+        ],
+        "memberships": [
+          {
+            "organization": "Mensa International",
+            "role": "Member",
+            "since": "2024"
+          }
+        ],
+        "interests": [
+          {
+            "title": "Mensa International",
+            "description": "Member & active collaborator"
+          },
+          {
+            "title": "AI & Data Products",
+            "description": "Currently developing AI-powered tools using modern LLM APIs and vector databases"
+          },
+          {
+            "title": "Technical Specialties",
+            "description": "PostgreSQL Database Design & Optimization • Python Data Processing & ETL Pipelines • Docker Containerization & CI/CD • System Integration & API Design • Team Leadership & Code Review Processes • React/Next.js Frontend Architecture"
+          }
+        ],
+        "skills": [
+          {
+            "category": "Core Backend",
+            "items": [
+              "Node.js",
+              "Python",
+              "TypeScript",
+              "PostgreSQL",
+              "Data Migration",
+              "API Design"
+            ]
+          },
+          {
+            "category": "Frontend & Frameworks",
+            "items": [
+              "Vue",
+              "React",
+              "Next.js",
+              "Tanstack",
+              "Supabase"
+            ]
+          },
+          {
+            "category": "Data & AI",
+            "items": [
+              "Vector DBs",
+              "OpenAI API",
+              "RAG"
+            ]
+          },
+          {
+            "category": "Infra & Cloud",
+            "items": [
+              "Docker",
+              "AWS (Familiar)"
+            ]
+          },
+          {
+            "category": "Project Management & Leadership",
+            "items": [
+              "Stakeholder Management",
+              "Team Leadership",
+              "Ownership",
+              "Product Management"
+            ]
+          }
+        ],
+        "experience": [
+          {
+            "company": "Enso Coliving",
+            "industry": "Real Estate",
+            "position": "Founding Tech Lead / CTO",
+            "duration": "Apr 2023 – Oct 2025",
+            "location": "Madrid",
+            "technologies": [
+              "Next.js (App Router)",
+              "TypeScript",
+              "React",
+              "Node.js",
+              "PostgreSQL",
+              "Supabase (Auth, DB, Vector)",
+              "Python",
+              "Stripe API"
+            ],
+            "achievements": [
+              "Engineered Self-Serve Booking Engine with Stripe webhook integration, automated invoicing, and dynamic pricing algorithms for €30k/month revenue",
+              "Built algorithmic tenant qualification system using Python pandas for data analysis and machine learning scoring models, reducing manual operations 90%",
+              "Architected data consolidation system with custom APIs integrating Notion, Airtable, and Monday.com into unified PostgreSQL database with real-time sync",
+              "Created vector databases using pgvector extension for semantic search and AI-powered property recommendations with OpenAI embeddings",
+              "Built Idealista-style property website with Mapbox GL integration, advanced filtering, and responsive design using Tailwind CSS",
+              "Designed intelligent matchmaking system analyzing user compatibility through JSON schema validation and recommendation algorithms"
+            ]
+          },
+          {
+            "company": "Mindera",
+            "position": "Senior Frontend Engineer / Frontend Architect",
+            "duration": "Apr 2021 – Apr 2023",
+            "location": "UK & US clients (Remote)",
+            "technologies": [
+              "TypeScript",
+              "React",
+              "React Native",
+              "Node.js",
+              "GraphQL",
+              "Jest",
+              "Vue"
+            ],
+            "achievements": [
+              "Built scalable React applications with Redux Toolkit, React Query for server state management, and optimized bundle splitting for UK/US enterprise clients",
+              "Implemented comprehensive CI/CD pipelines using GitHub Actions, Docker multi-stage builds, and automated deployment to AWS ECS with blue-green strategy",
+              "Developed high-performance frontend architectures using Webpack 5 module federation, lazy loading, and service workers for offline-first PWA functionality",
+              "Integrated GraphQL APIs using Apollo Client, implemented caching strategies, optimistic updates, and real-time subscriptions for enhanced UX"
+            ]
+          },
+          {
+            "company": "Nomoko",
+            "position": "Senior Frontend Engineer",
+            "duration": "Jan 2020 – Apr 2021",
+            "location": "Switzerland (Remote from Madrid)",
+            "technologies": [
+              "JavaScript (ES6+)",
+              "React",
+              "Redux",
+              "WebGL/Three.js"
+            ],
+            "achievements": [
+              "Engineered high-performance 3D data visualization with 60fps rendering",
+              "Built component architecture for rapid Real Estate product prototyping",
+              "Implemented WebGL/Three.js solutions for complex geospatial data rendering",
+              "Optimized massive dataset handling and real-time visualization performance"
+            ]
+          },
+          {
+            "company": "Cesce",
+            "position": "Frontend Developer",
+            "duration": "Sep 2017 – Jan 2020",
+            "location": "Madrid",
+            "technologies": [
+              "JavaScript",
+              "React",
+              "HTML5/SCSS"
+            ],
+            "achievements": [
+              "Developed regulatory-compliant interfaces for financial risk analysis",
+              "Built production systems serving 20k+ B2B customers with 100% uptime"
+            ]
+          }
+        ],
+        "projects": []
+      },
+      "createdAt": "2026-02-04T12:29:46.375Z",
+      "updatedAt": "2026-02-04T12:29:46.375Z",
+      "version": 3,
+      "llmPromptUsed": "Modify this resume according to the user's instructions.\n\n## CURRENT RESUME:\n```json\n{\n  \"personalDetails\": {\n    \"fullName\": \"Marcos Montero\",\n    \"title\": \"Senior Product Engineer (Backend Focus)\",\n    \"phone\": \"+34 696013104\",\n    \"email\": \"marcos.mon.rod@gmail.com\",\n    \"linkedin\": \"/in/-marcos-montero\",\n    \"github\": \"/Marcos-Montero\",\n    \"location\": \"Madrid, Spain\"\n  },\n  \"summary\": \"Product-minded Senior Engineer with 8+ years of experience driving technical execution and delivering business value. Expertise in backend development (Node.js, Python) and full-stack capabilities (Vue, React, Next.js). Focused on building data-driven products and matching platform solutions.\",\n  \"languages\": [\n    {\n      \"name\": \"Spanish\",\n      \"level\": \"Native (C2)\"\n    },\n    {\n      \"name\": \"English\",\n      \"level\": \"Professional (C1)\"\n    },\n    {\n      \"name\": \"Euskera\",\n      \"level\": \"Conversational (B1)\"\n    }\n  ],\n  \"education\": [\n    {\n      \"institution\": \"Boot.dev\",\n      \"degree\": \"Computer Science & Backend Engineering\",\n      \"description\": \"Go, Docker, Algorithms\"\n    },\n    {\n      \"institution\": \"Frontend Masters\",\n      \"degree\": \"Advanced React, Next.js, & System Architecture paths\"\n    },\n    {\n      \"institution\": \"Complutense University of Madrid\",\n      \"degree\": \"Bachelor's Degree in Philosophy\",\n      \"year\": \"2017\"\n    }\n  ],\n  \"memberships\": [\n    {\n      \"organization\": \"Mensa International\",\n      \"role\": \"Member\",\n      \"since\": \"2024\"\n    }\n  ],\n  \"interests\": [\n    {\n      \"title\": \"Mensa International\",\n      \"description\": \"Member & active collaborator\"\n    },\n    {\n      \"title\": \"AI & Data Products\",\n      \"description\": \"Currently developing AI-powered tools using modern LLM APIs and vector databases\"\n    },\n    {\n      \"title\": \"Technical Specialties\",\n      \"description\": \"PostgreSQL Database Design & Optimization • Python Data Processing & ETL Pipelines • Docker Containerization & CI/CD • System Integration & API Design • Team Leadership & Code Review Processes • React/Next.js Frontend Architecture\"\n    }\n  ],\n  \"skills\": [\n    {\n      \"category\": \"Core Backend\",\n      \"items\": [\n        \"Node.js\",\n        \"Python\",\n        \"TypeScript\",\n        \"PostgreSQL\",\n        \"Data Migration\",\n        \"API Design\"\n      ]\n    },\n    {\n      \"category\": \"Frontend & Frameworks\",\n      \"items\": [\n        \"Vue\",\n        \"React\",\n        \"Next.js\",\n        \"Tanstack\",\n        \"Supabase\"\n      ]\n    },\n    {\n      \"category\": \"Data & AI\",\n      \"items\": [\n        \"Vector DBs\",\n        \"OpenAI API\",\n        \"RAG\"\n      ]\n    },\n    {\n      \"category\": \"Infra & Cloud\",\n      \"items\": [\n        \"Docker\",\n        \"AWS (Familiar)\"\n      ]\n    },\n    {\n      \"category\": \"Project Management & Leadership\",\n      \"items\": [\n        \"Stakeholder Management\",\n        \"Team Leadership\",\n        \"Ownership\",\n        \"Product Management\"\n      ]\n    }\n  ],\n  \"experience\": [\n    {\n      \"company\": \"Enso Coliving\",\n      \"industry\": \"Real Estate\",\n      \"position\": \"Founding Tech Lead / CTO\",\n      \"duration\": \"Apr 2023 – Oct 2025\",\n      \"location\": \"Madrid\",\n      \"technologies\": [\n        \"Next.js (App Router)\",\n        \"TypeScript\",\n        \"React\",\n        \"Node.js\",\n        \"PostgreSQL\",\n        \"Supabase (Auth, DB, Vector)\",\n        \"Python\",\n        \"Stripe API\"\n      ],\n      \"achievements\": [\n        \"Engineered Self-Serve Booking Engine with Stripe webhook integration, automated invoicing, and dynamic pricing algorithms for €30k/month revenue\",\n        \"Built algorithmic tenant qualification system using Python pandas for data analysis and machine learning scoring models, reducing manual operations 90%\",\n        \"Architected data consolidation system with custom APIs integrating Notion, Airtable, and Monday.com into unified PostgreSQL database with real-time sync\",\n        \"Created vector databases using pgvector extension for semantic search and AI-powered property recommendations with OpenAI embeddings\",\n        \"Built Idealista-style property website with Mapbox GL integration, advanced filtering, and responsive design using Tailwind CSS\",\n        \"Designed intelligent matchmaking system analyzing user compatibility through JSON schema validation and recommendation algorithms\"\n      ]\n    },\n    {\n      \"company\": \"Mindera\",\n      \"position\": \"Senior Frontend Engineer / Frontend Architect\",\n      \"duration\": \"Apr 2021 – Apr 2023\",\n      \"location\": \"UK & US clients (Remote)\",\n      \"technologies\": [\n        \"TypeScript\",\n        \"React\",\n        \"React Native\",\n        \"Node.js\",\n        \"GraphQL\",\n        \"Jest\"\n      ],\n      \"achievements\": [\n        \"Built scalable React applications with Redux Toolkit, React Query for server state management, and optimized bundle splitting for UK/US enterprise clients\",\n        \"Implemented comprehensive CI/CD pipelines using GitHub Actions, Docker multi-stage builds, and automated deployment to AWS ECS with blue-green strategy\",\n        \"Developed high-performance frontend architectures using Webpack 5 module federation, lazy loading, and service workers for offline-first PWA functionality\",\n        \"Integrated GraphQL APIs using Apollo Client, implemented caching strategies, optimistic updates, and real-time subscriptions for enhanced UX\"\n      ]\n    },\n    {\n      \"company\": \"Nomoko\",\n      \"position\": \"Senior Frontend Engineer\",\n      \"duration\": \"Jan 2020 – Apr 2021\",\n      \"location\": \"Switzerland (Remote from Madrid)\",\n      \"technologies\": [\n        \"JavaScript (ES6+)\",\n        \"React\",\n        \"Redux\",\n        \"WebGL/Three.js\"\n      ],\n      \"achievements\": [\n        \"Engineered high-performance 3D data visualization with 60fps rendering\",\n        \"Built component architecture for rapid Real Estate product prototyping\",\n        \"Implemented WebGL/Three.js solutions for complex geospatial data rendering\",\n        \"Optimized massive dataset handling and real-time visualization performance\"\n      ]\n    },\n    {\n      \"company\": \"Cesce\",\n      \"position\": \"Frontend Developer\",\n      \"duration\": \"Sep 2017 – Jan 2020\",\n      \"location\": \"Madrid\",\n      \"technologies\": [\n        \"JavaScript\",\n        \"React\",\n        \"HTML5/SCSS\"\n      ],\n      \"achievements\": [\n        \"Developed regulatory-compliant interfaces for financial risk analysis\",\n        \"Built production systems serving 20k+ B2B customers with 100% uptime\"\n      ]\n    }\n  ],\n  \"projects\": []\n}\n```\n\n## TARGET JOB DESCRIPTION:\n```\nNode and Python for Backend, Vue for frontend.\nDashboard creation, matching vendors-customers plantform, heavy backend, \n```\n\n## USER INSTRUCTIONS:\nadd also some vue experience in Mindera section\n\nApply the requested changes while maintaining truthfulness. Return the JSON with resumeData, changeSummary, and changes array.",
+      "changeSummary": "Added Vue to the technologies used at Mindera to align with the job description's emphasis on Vue for frontend development.",
+      "changes": [
+        {
+          "section": "experience",
+          "field": "Mindera - technologies",
+          "description": "Added Vue to the list of technologies used."
+        }
+      ]
+    },
+    {
+      "id": "1770208571869-nuv4upz",
+      "companyId": "1770206213558-ekkbzlg",
+      "companyName": "Keelvar",
+      "jobTitle": "Senior Product Engineer Backend heavy",
+      "jobDescription": "Node and Python for Backend, Vue for frontend.\nDashboard creation, matching vendors-customers plantform, heavy backend, ",
+      "notes": "Emphasize my product mindset, stakeholder management, project/product management. Emphasize my backend skills primarily Node in start ups and Python for Data heavy ops and AI, profficiency Backend, typescript, react and Vue for frontend, tanstack, next js, \nWhat I will be doing in my desired job at keelvar: Dashboard creation, matching vendors-customers plantform, heavy backend. Add some AWS and infra that they maybe using, not like im an expert, but strong familiiarity with them.\nMake sure you stick to current length, make only changes that substitute the curernt content, without making it longer than it is",
+      "baseVersionId": "product-engineer",
+      "resumeData": {
+        "personalDetails": {
+          "fullName": "Marcos Montero",
+          "title": "Senior Product Engineer (Backend Focus)",
+          "phone": "+34 696013104",
+          "email": "marcos.mon.rod@gmail.com",
+          "linkedin": "/in/-marcos-montero",
+          "github": "/Marcos-Montero",
+          "location": "Madrid, Spain"
+        },
+        "summary": "Product-minded Senior Engineer with 8+ years of experience driving technical execution and delivering business value. Expertise in backend development (Node.js, Python) and full-stack capabilities (Vue, React, Next.js). Focused on building data-driven products and matching platform solutions.",
+        "languages": [
+          {
+            "name": "Spanish",
+            "level": "Native (C2)"
+          },
+          {
+            "name": "English",
+            "level": "Professional (C1)"
+          },
+          {
+            "name": "Euskera",
+            "level": "Conversational (B1)"
+          }
+        ],
+        "education": [
+          {
+            "institution": "Boot.dev",
+            "degree": "Computer Science & Backend Engineering",
+            "description": "Go, Docker, Algorithms"
+          },
+          {
+            "institution": "Frontend Masters",
+            "degree": "Advanced React, Next.js, & System Architecture paths"
+          },
+          {
+            "institution": "Complutense University of Madrid",
+            "degree": "Bachelor's Degree in Philosophy",
+            "year": "2017"
+          }
+        ],
+        "memberships": [
+          {
+            "organization": "Mensa International",
+            "role": "Member",
+            "since": "2024"
+          }
+        ],
+        "interests": [
+          {
+            "title": "Mensa International",
+            "description": "Member & active collaborator"
+          },
+          {
+            "title": "AI & Data Products",
+            "description": "Currently developing AI-powered tools using modern LLM APIs and vector databases"
+          },
+          {
+            "title": "Technical Specialties",
+            "description": "PostgreSQL Database Design & Optimization • Python Data Processing & ETL Pipelines • Docker Containerization & CI/CD • System Integration & API Design • Team Leadership & Code Review Processes • React/Next.js Frontend Architecture • Vue • Go"
+          }
+        ],
+        "skills": [
+          {
+            "category": "Core Backend",
+            "items": [
+              "Node.js",
+              "Python",
+              "TypeScript",
+              "PostgreSQL",
+              "Data Migration",
+              "API Design"
+            ]
+          },
+          {
+            "category": "Frontend & Frameworks",
+            "items": [
+              "Vue",
+              "React",
+              "Next.js",
+              "Tanstack",
+              "Supabase"
+            ]
+          },
+          {
+            "category": "Data & AI",
+            "items": [
+              "Vector DBs",
+              "OpenAI API",
+              "RAG"
+            ]
+          },
+          {
+            "category": "Infra & Cloud",
+            "items": [
+              "Docker",
+              "AWS (Familiar)"
+            ]
+          },
+          {
+            "category": "Project Management & Leadership",
+            "items": [
+              "Stakeholder Management",
+              "Team Leadership",
+              "Ownership",
+              "Product Management"
+            ]
+          }
+        ],
+        "experience": [
+          {
+            "company": "Enso Coliving",
+            "industry": "Real Estate",
+            "position": "Founding Tech Lead / CTO",
+            "duration": "Apr 2023 – Oct 2025",
+            "location": "Madrid",
+            "technologies": [
+              "Next.js (App Router)",
+              "TypeScript",
+              "React",
+              "Node.js",
+              "PostgreSQL",
+              "Supabase (Auth, DB, Vector)",
+              "Python",
+              "Stripe API"
+            ],
+            "achievements": [
+              "Engineered Self-Serve Booking Engine with Stripe webhook integration, automated invoicing, and dynamic pricing algorithms for €30k/month revenue",
+              "Built algorithmic tenant qualification system using Python pandas for data analysis and machine learning scoring models, reducing manual operations 90%",
+              "Architected data consolidation system with custom APIs integrating Notion, Airtable, and Monday.com into unified PostgreSQL database with real-time sync",
+              "Created vector databases using pgvector extension for semantic search and AI-powered property recommendations with OpenAI embeddings",
+              "Designed intelligent matchmaking system analyzing user compatibility through JSON schema validation and recommendation algorithms"
+            ]
+          },
+          {
+            "company": "Mindera",
+            "position": "Senior Frontend Engineer / Frontend Architect",
+            "duration": "Apr 2021 – Apr 2023",
+            "location": "UK & US clients (Remote)",
+            "technologies": [
+              "TypeScript",
+              "React",
+              "React Native",
+              "Node.js",
+              "GraphQL",
+              "Jest",
+              "Vue"
+            ],
+            "achievements": [
+              "Built scalable React applications with Redux Toolkit, React Query for server state management, and optimized bundle splitting for UK/US enterprise clients",
+              "Implemented comprehensive CI/CD pipelines using GitHub Actions, Docker multi-stage builds, and automated deployment to AWS ECS with blue-green strategy",
+              "Developed high-performance frontend architectures using Webpack 5 module federation, lazy loading, and service workers for offline-first PWA functionality",
+              "Integrated GraphQL APIs using Apollo Client, implemented caching strategies, optimistic updates, and real-time subscriptions for enhanced UX"
+            ]
+          },
+          {
+            "company": "Nomoko",
+            "position": "Senior Frontend Engineer",
+            "duration": "Jan 2020 – Apr 2021",
+            "location": "Switzerland (Remote from Madrid)",
+            "technologies": [
+              "JavaScript (ES6+)",
+              "React",
+              "Redux",
+              "WebGL/Three.js",
+              "Node.js"
+            ],
+            "achievements": [
+              "Engineered high-performance 3D data visualization with 60fps rendering",
+              "Built component architecture for rapid Real Estate product prototyping",
+              "Implemented WebGL/Three.js solutions for complex geospatial data rendering",
+              "Optimized massive dataset handling and real-time visualization performance"
+            ]
+          },
+          {
+            "company": "Cesce",
+            "position": "Frontend Developer",
+            "duration": "Sep 2017 – Jan 2020",
+            "location": "Madrid",
+            "technologies": [
+              "JavaScript",
+              "React",
+              "HTML5/SCSS"
+            ],
+            "achievements": [
+              "Developed regulatory-compliant interfaces for financial risk analysis",
+              "Built production systems serving 20k+ B2B customers with 100% uptime"
+            ]
+          }
+        ],
+        "projects": []
+      },
+      "createdAt": "2026-02-04T12:36:11.869Z",
+      "updatedAt": "2026-02-04T12:36:11.869Z",
+      "version": 4,
+      "llmPromptUsed": "Modify this resume according to the user's instructions.\n\n## CURRENT RESUME:\n```json\n{\n  \"personalDetails\": {\n    \"fullName\": \"Marcos Montero\",\n    \"title\": \"Senior Product Engineer (Backend Focus)\",\n    \"phone\": \"+34 696013104\",\n    \"email\": \"marcos.mon.rod@gmail.com\",\n    \"linkedin\": \"/in/-marcos-montero\",\n    \"github\": \"/Marcos-Montero\",\n    \"location\": \"Madrid, Spain\"\n  },\n  \"summary\": \"Product-minded Senior Engineer with 8+ years of experience driving technical execution and delivering business value. Expertise in backend development (Node.js, Python) and full-stack capabilities (Vue, React, Next.js). Focused on building data-driven products and matching platform solutions.\",\n  \"languages\": [\n    {\n      \"name\": \"Spanish\",\n      \"level\": \"Native (C2)\"\n    },\n    {\n      \"name\": \"English\",\n      \"level\": \"Professional (C1)\"\n    },\n    {\n      \"name\": \"Euskera\",\n      \"level\": \"Conversational (B1)\"\n    }\n  ],\n  \"education\": [\n    {\n      \"institution\": \"Boot.dev\",\n      \"degree\": \"Computer Science & Backend Engineering\",\n      \"description\": \"Go, Docker, Algorithms\"\n    },\n    {\n      \"institution\": \"Frontend Masters\",\n      \"degree\": \"Advanced React, Next.js, & System Architecture paths\"\n    },\n    {\n      \"institution\": \"Complutense University of Madrid\",\n      \"degree\": \"Bachelor's Degree in Philosophy\",\n      \"year\": \"2017\"\n    }\n  ],\n  \"memberships\": [\n    {\n      \"organization\": \"Mensa International\",\n      \"role\": \"Member\",\n      \"since\": \"2024\"\n    }\n  ],\n  \"interests\": [\n    {\n      \"title\": \"Mensa International\",\n      \"description\": \"Member & active collaborator\"\n    },\n    {\n      \"title\": \"AI & Data Products\",\n      \"description\": \"Currently developing AI-powered tools using modern LLM APIs and vector databases\"\n    },\n    {\n      \"title\": \"Technical Specialties\",\n      \"description\": \"PostgreSQL Database Design & Optimization • Python Data Processing & ETL Pipelines • Docker Containerization & CI/CD • System Integration & API Design • Team Leadership & Code Review Processes • React/Next.js Frontend Architecture\"\n    }\n  ],\n  \"skills\": [\n    {\n      \"category\": \"Core Backend\",\n      \"items\": [\n        \"Node.js\",\n        \"Python\",\n        \"TypeScript\",\n        \"PostgreSQL\",\n        \"Data Migration\",\n        \"API Design\"\n      ]\n    },\n    {\n      \"category\": \"Frontend & Frameworks\",\n      \"items\": [\n        \"Vue\",\n        \"React\",\n        \"Next.js\",\n        \"Tanstack\",\n        \"Supabase\"\n      ]\n    },\n    {\n      \"category\": \"Data & AI\",\n      \"items\": [\n        \"Vector DBs\",\n        \"OpenAI API\",\n        \"RAG\"\n      ]\n    },\n    {\n      \"category\": \"Infra & Cloud\",\n      \"items\": [\n        \"Docker\",\n        \"AWS (Familiar)\"\n      ]\n    },\n    {\n      \"category\": \"Project Management & Leadership\",\n      \"items\": [\n        \"Stakeholder Management\",\n        \"Team Leadership\",\n        \"Ownership\",\n        \"Product Management\"\n      ]\n    }\n  ],\n  \"experience\": [\n    {\n      \"company\": \"Enso Coliving\",\n      \"industry\": \"Real Estate\",\n      \"position\": \"Founding Tech Lead / CTO\",\n      \"duration\": \"Apr 2023 – Oct 2025\",\n      \"location\": \"Madrid\",\n      \"technologies\": [\n        \"Next.js (App Router)\",\n        \"TypeScript\",\n        \"React\",\n        \"Node.js\",\n        \"PostgreSQL\",\n        \"Supabase (Auth, DB, Vector)\",\n        \"Python\",\n        \"Stripe API\"\n      ],\n      \"achievements\": [\n        \"Engineered Self-Serve Booking Engine with Stripe webhook integration, automated invoicing, and dynamic pricing algorithms for €30k/month revenue\",\n        \"Built algorithmic tenant qualification system using Python pandas for data analysis and machine learning scoring models, reducing manual operations 90%\",\n        \"Architected data consolidation system with custom APIs integrating Notion, Airtable, and Monday.com into unified PostgreSQL database with real-time sync\",\n        \"Created vector databases using pgvector extension for semantic search and AI-powered property recommendations with OpenAI embeddings\",\n        \"Built Idealista-style property website with Mapbox GL integration, advanced filtering, and responsive design using Tailwind CSS\",\n        \"Designed intelligent matchmaking system analyzing user compatibility through JSON schema validation and recommendation algorithms\"\n      ]\n    },\n    {\n      \"company\": \"Mindera\",\n      \"position\": \"Senior Frontend Engineer / Frontend Architect\",\n      \"duration\": \"Apr 2021 – Apr 2023\",\n      \"location\": \"UK & US clients (Remote)\",\n      \"technologies\": [\n        \"TypeScript\",\n        \"React\",\n        \"React Native\",\n        \"Node.js\",\n        \"GraphQL\",\n        \"Jest\",\n        \"Vue\"\n      ],\n      \"achievements\": [\n        \"Built scalable React applications with Redux Toolkit, React Query for server state management, and optimized bundle splitting for UK/US enterprise clients\",\n        \"Implemented comprehensive CI/CD pipelines using GitHub Actions, Docker multi-stage builds, and automated deployment to AWS ECS with blue-green strategy\",\n        \"Developed high-performance frontend architectures using Webpack 5 module federation, lazy loading, and service workers for offline-first PWA functionality\",\n        \"Integrated GraphQL APIs using Apollo Client, implemented caching strategies, optimistic updates, and real-time subscriptions for enhanced UX\"\n      ]\n    },\n    {\n      \"company\": \"Nomoko\",\n      \"position\": \"Senior Frontend Engineer\",\n      \"duration\": \"Jan 2020 – Apr 2021\",\n      \"location\": \"Switzerland (Remote from Madrid)\",\n      \"technologies\": [\n        \"JavaScript (ES6+)\",\n        \"React\",\n        \"Redux\",\n        \"WebGL/Three.js\"\n      ],\n      \"achievements\": [\n        \"Engineered high-performance 3D data visualization with 60fps rendering\",\n        \"Built component architecture for rapid Real Estate product prototyping\",\n        \"Implemented WebGL/Three.js solutions for complex geospatial data rendering\",\n        \"Optimized massive dataset handling and real-time visualization performance\"\n      ]\n    },\n    {\n      \"company\": \"Cesce\",\n      \"position\": \"Frontend Developer\",\n      \"duration\": \"Sep 2017 – Jan 2020\",\n      \"location\": \"Madrid\",\n      \"technologies\": [\n        \"JavaScript\",\n        \"React\",\n        \"HTML5/SCSS\"\n      ],\n      \"achievements\": [\n        \"Developed regulatory-compliant interfaces for financial risk analysis\",\n        \"Built production systems serving 20k+ B2B customers with 100% uptime\"\n      ]\n    }\n  ],\n  \"projects\": []\n}\n```\n\n## TARGET JOB DESCRIPTION:\n```\nNode and Python for Backend, Vue for frontend.\nDashboard creation, matching vendors-customers plantform, heavy backend, \n```\n\n## USER INSTRUCTIONS:\nin the technical specialities add vue and some GO. We need to remove the Enso bullet point sayig \"Built idealista-style property...\" and in Nomoko experience's stack we need to add some backend in node\n\nApply the requested changes while maintaining truthfulness. Return the JSON with resumeData, changeSummary, and changes array.",
+      "changeSummary": "Added Vue and Go to technical specialties, removed the Idealista-style property bullet point from Enso Coliving, and added Node.js to Nomoko's technologies.",
+      "changes": [
+        {
+          "section": "interests",
+          "field": "Technical Specialties",
+          "description": "Added Vue and Go to the list of technical specialties."
+        },
+        {
+          "section": "experience",
+          "field": "Enso Coliving - Achievements",
+          "description": "Removed the 'Built Idealista-style property website' bullet point."
+        },
+        {
+          "section": "experience",
+          "field": "Nomoko - Technologies",
+          "description": "Added Node.js to the list of technologies."
+        }
+      ]
+    },
+    {
+      "id": "1770208758143-i47ilcy",
+      "companyId": "1770206213558-ekkbzlg",
+      "companyName": "Keelvar",
+      "jobTitle": "Senior Product Engineer Backend heavy",
+      "jobDescription": "Node and Python for Backend, Vue for frontend.\nDashboard creation, matching vendors-customers plantform, heavy backend, ",
+      "notes": "Emphasize my product mindset, stakeholder management, project/product management. Emphasize my backend skills primarily Node in start ups and Python for Data heavy ops and AI, profficiency Backend, typescript, react and Vue for frontend, tanstack, next js, \nWhat I will be doing in my desired job at keelvar: Dashboard creation, matching vendors-customers plantform, heavy backend. Add some AWS and infra that they maybe using, not like im an expert, but strong familiiarity with them.\nMake sure you stick to current length, make only changes that substitute the curernt content, without making it longer than it is",
+      "baseVersionId": "product-engineer",
+      "resumeData": {
+        "personalDetails": {
+          "fullName": "Marcos Montero",
+          "title": "Senior Product Engineer (Backend Focus)",
+          "phone": "+34 696013104",
+          "email": "marcos.mon.rod@gmail.com",
+          "linkedin": "/in/-marcos-montero",
+          "github": "/Marcos-Montero",
+          "location": "Madrid, Spain"
+        },
+        "summary": "Product-minded Senior Engineer with 8+ years of experience driving technical execution and delivering business value. Expertise in backend development (Node.js, Python) and full-stack capabilities (Vue, React, Next.js). Focused on building data-driven products and matching platform solutions.",
+        "languages": [
+          {
+            "name": "Spanish",
+            "level": "Native (C2)"
+          },
+          {
+            "name": "English",
+            "level": "Professional (C1)"
+          },
+          {
+            "name": "Euskera",
+            "level": "Conversational (B1)"
+          }
+        ],
+        "education": [
+          {
+            "institution": "Boot.dev",
+            "degree": "Computer Science & Backend Engineering",
+            "description": "Go, Docker, Algorithms"
+          },
+          {
+            "institution": "Frontend Masters",
+            "degree": "Advanced React, Next.js, & System Architecture paths"
+          },
+          {
+            "institution": "Complutense University of Madrid",
+            "degree": "Bachelor's Degree in Philosophy",
+            "year": "2017"
+          }
+        ],
+        "memberships": [
+          {
+            "organization": "Mensa International",
+            "role": "Member",
+            "since": "2024"
+          }
+        ],
+        "interests": [
+          {
+            "title": "Mensa International",
+            "description": "Member & active collaborator"
+          },
+          {
+            "title": "AI & Data Products",
+            "description": "Currently developing AI-powered tools using modern LLM APIs and vector databases"
+          },
+          {
+            "title": "Technical Specialties",
+            "description": "PostgreSQL Database Design & Optimization • Python Data Processing & ETL Pipelines • Docker Containerization & CI/CD • System Integration & API Design • Team Leadership & Code Review Processes • React/Next.js Frontend Architecture • Vue (UI Framework) • Go (Backend Language)"
+          }
+        ],
+        "skills": [
+          {
+            "category": "Core Backend",
+            "items": [
+              "Node.js",
+              "Python",
+              "TypeScript",
+              "PostgreSQL",
+              "Data Migration",
+              "API Design"
+            ]
+          },
+          {
+            "category": "Frontend & Frameworks",
+            "items": [
+              "Vue",
+              "React",
+              "Next.js",
+              "Tanstack",
+              "Supabase"
+            ]
+          },
+          {
+            "category": "Data & AI",
+            "items": [
+              "Vector DBs",
+              "OpenAI API",
+              "RAG"
+            ]
+          },
+          {
+            "category": "Infra & Cloud",
+            "items": [
+              "Docker",
+              "AWS (Familiar)"
+            ]
+          },
+          {
+            "category": "Project Management & Leadership",
+            "items": [
+              "Stakeholder Management",
+              "Team Leadership",
+              "Ownership",
+              "Product Management"
+            ]
+          }
+        ],
+        "experience": [
+          {
+            "company": "Enso Coliving",
+            "industry": "Real Estate",
+            "position": "Founding Tech Lead / CTO",
+            "duration": "Apr 2023 – Oct 2025",
+            "location": "Madrid",
+            "technologies": [
+              "Next.js (App Router)",
+              "TypeScript",
+              "React",
+              "Node.js",
+              "PostgreSQL",
+              "Supabase (Auth, DB, Vector)",
+              "Python",
+              "Stripe API"
+            ],
+            "achievements": [
+              "Engineered Self-Serve Booking Engine with Stripe webhook integration, automated invoicing, and dynamic pricing algorithms for €30k/month revenue",
+              "Built algorithmic tenant qualification system using Python pandas for data analysis and machine learning scoring models, reducing manual operations 90%",
+              "Architected data consolidation system with custom APIs integrating Notion, Airtable, and Monday.com into unified PostgreSQL database with real-time sync",
+              "Created vector databases using pgvector extension for semantic search and AI-powered property recommendations with OpenAI embeddings",
+              "Designed intelligent matchmaking system analyzing user compatibility through JSON schema validation and recommendation algorithms"
+            ]
+          },
+          {
+            "company": "Mindera",
+            "position": "Senior Frontend Engineer / Frontend Architect",
+            "duration": "Apr 2021 – Apr 2023",
+            "location": "UK & US clients (Remote)",
+            "technologies": [
+              "TypeScript",
+              "React",
+              "React Native",
+              "Node.js",
+              "GraphQL",
+              "Jest",
+              "Vue",
+              "Python"
+            ],
+            "achievements": [
+              "Built scalable React applications with Redux Toolkit, React Query for server state management, and optimized bundle splitting for UK/US enterprise clients",
+              "Implemented comprehensive CI/CD pipelines using GitHub Actions, Docker multi-stage builds, and automated deployment to AWS ECS with blue-green strategy",
+              "Developed high-performance frontend architectures using Webpack 5 module federation, lazy loading, and service workers for offline-first PWA functionality",
+              "Integrated GraphQL APIs using Apollo Client, implemented caching strategies, optimistic updates, and real-time subscriptions for enhanced UX"
+            ]
+          },
+          {
+            "company": "Nomoko",
+            "position": "Senior Frontend Engineer",
+            "duration": "Jan 2020 – Apr 2021",
+            "location": "Switzerland (Remote from Madrid)",
+            "technologies": [
+              "JavaScript (ES6+)",
+              "React",
+              "Redux",
+              "WebGL/Three.js",
+              "Node.js"
+            ],
+            "achievements": [
+              "Engineered high-performance 3D data visualization with 60fps rendering",
+              "Built component architecture for rapid Real Estate product prototyping",
+              "Implemented WebGL/Three.js solutions for complex geospatial data rendering",
+              "Optimized massive dataset handling and real-time visualization performance"
+            ]
+          },
+          {
+            "company": "Cesce",
+            "position": "Frontend Developer",
+            "duration": "Sep 2017 – Jan 2020",
+            "location": "Madrid",
+            "technologies": [
+              "JavaScript",
+              "React",
+              "HTML5/SCSS"
+            ],
+            "achievements": [
+              "Developed regulatory-compliant interfaces for financial risk analysis",
+              "Built production systems serving 20k+ B2B customers with 100% uptime"
+            ]
+          }
+        ],
+        "projects": []
+      },
+      "createdAt": "2026-02-04T12:39:18.142Z",
+      "updatedAt": "2026-02-04T12:39:18.142Z",
+      "version": 5,
+      "llmPromptUsed": "Modify this resume according to the user's instructions.\n\n## CURRENT RESUME:\n```json\n{\n  \"personalDetails\": {\n    \"fullName\": \"Marcos Montero\",\n    \"title\": \"Senior Product Engineer (Backend Focus)\",\n    \"phone\": \"+34 696013104\",\n    \"email\": \"marcos.mon.rod@gmail.com\",\n    \"linkedin\": \"/in/-marcos-montero\",\n    \"github\": \"/Marcos-Montero\",\n    \"location\": \"Madrid, Spain\"\n  },\n  \"summary\": \"Product-minded Senior Engineer with 8+ years of experience driving technical execution and delivering business value. Expertise in backend development (Node.js, Python) and full-stack capabilities (Vue, React, Next.js). Focused on building data-driven products and matching platform solutions.\",\n  \"languages\": [\n    {\n      \"name\": \"Spanish\",\n      \"level\": \"Native (C2)\"\n    },\n    {\n      \"name\": \"English\",\n      \"level\": \"Professional (C1)\"\n    },\n    {\n      \"name\": \"Euskera\",\n      \"level\": \"Conversational (B1)\"\n    }\n  ],\n  \"education\": [\n    {\n      \"institution\": \"Boot.dev\",\n      \"degree\": \"Computer Science & Backend Engineering\",\n      \"description\": \"Go, Docker, Algorithms\"\n    },\n    {\n      \"institution\": \"Frontend Masters\",\n      \"degree\": \"Advanced React, Next.js, & System Architecture paths\"\n    },\n    {\n      \"institution\": \"Complutense University of Madrid\",\n      \"degree\": \"Bachelor's Degree in Philosophy\",\n      \"year\": \"2017\"\n    }\n  ],\n  \"memberships\": [\n    {\n      \"organization\": \"Mensa International\",\n      \"role\": \"Member\",\n      \"since\": \"2024\"\n    }\n  ],\n  \"interests\": [\n    {\n      \"title\": \"Mensa International\",\n      \"description\": \"Member & active collaborator\"\n    },\n    {\n      \"title\": \"AI & Data Products\",\n      \"description\": \"Currently developing AI-powered tools using modern LLM APIs and vector databases\"\n    },\n    {\n      \"title\": \"Technical Specialties\",\n      \"description\": \"PostgreSQL Database Design & Optimization • Python Data Processing & ETL Pipelines • Docker Containerization & CI/CD • System Integration & API Design • Team Leadership & Code Review Processes • React/Next.js Frontend Architecture • Vue • Go\"\n    }\n  ],\n  \"skills\": [\n    {\n      \"category\": \"Core Backend\",\n      \"items\": [\n        \"Node.js\",\n        \"Python\",\n        \"TypeScript\",\n        \"PostgreSQL\",\n        \"Data Migration\",\n        \"API Design\"\n      ]\n    },\n    {\n      \"category\": \"Frontend & Frameworks\",\n      \"items\": [\n        \"Vue\",\n        \"React\",\n        \"Next.js\",\n        \"Tanstack\",\n        \"Supabase\"\n      ]\n    },\n    {\n      \"category\": \"Data & AI\",\n      \"items\": [\n        \"Vector DBs\",\n        \"OpenAI API\",\n        \"RAG\"\n      ]\n    },\n    {\n      \"category\": \"Infra & Cloud\",\n      \"items\": [\n        \"Docker\",\n        \"AWS (Familiar)\"\n      ]\n    },\n    {\n      \"category\": \"Project Management & Leadership\",\n      \"items\": [\n        \"Stakeholder Management\",\n        \"Team Leadership\",\n        \"Ownership\",\n        \"Product Management\"\n      ]\n    }\n  ],\n  \"experience\": [\n    {\n      \"company\": \"Enso Coliving\",\n      \"industry\": \"Real Estate\",\n      \"position\": \"Founding Tech Lead / CTO\",\n      \"duration\": \"Apr 2023 – Oct 2025\",\n      \"location\": \"Madrid\",\n      \"technologies\": [\n        \"Next.js (App Router)\",\n        \"TypeScript\",\n        \"React\",\n        \"Node.js\",\n        \"PostgreSQL\",\n        \"Supabase (Auth, DB, Vector)\",\n        \"Python\",\n        \"Stripe API\"\n      ],\n      \"achievements\": [\n        \"Engineered Self-Serve Booking Engine with Stripe webhook integration, automated invoicing, and dynamic pricing algorithms for €30k/month revenue\",\n        \"Built algorithmic tenant qualification system using Python pandas for data analysis and machine learning scoring models, reducing manual operations 90%\",\n        \"Architected data consolidation system with custom APIs integrating Notion, Airtable, and Monday.com into unified PostgreSQL database with real-time sync\",\n        \"Created vector databases using pgvector extension for semantic search and AI-powered property recommendations with OpenAI embeddings\",\n        \"Designed intelligent matchmaking system analyzing user compatibility through JSON schema validation and recommendation algorithms\"\n      ]\n    },\n    {\n      \"company\": \"Mindera\",\n      \"position\": \"Senior Frontend Engineer / Frontend Architect\",\n      \"duration\": \"Apr 2021 – Apr 2023\",\n      \"location\": \"UK & US clients (Remote)\",\n      \"technologies\": [\n        \"TypeScript\",\n        \"React\",\n        \"React Native\",\n        \"Node.js\",\n        \"GraphQL\",\n        \"Jest\",\n        \"Vue\"\n      ],\n      \"achievements\": [\n        \"Built scalable React applications with Redux Toolkit, React Query for server state management, and optimized bundle splitting for UK/US enterprise clients\",\n        \"Implemented comprehensive CI/CD pipelines using GitHub Actions, Docker multi-stage builds, and automated deployment to AWS ECS with blue-green strategy\",\n        \"Developed high-performance frontend architectures using Webpack 5 module federation, lazy loading, and service workers for offline-first PWA functionality\",\n        \"Integrated GraphQL APIs using Apollo Client, implemented caching strategies, optimistic updates, and real-time subscriptions for enhanced UX\"\n      ]\n    },\n    {\n      \"company\": \"Nomoko\",\n      \"position\": \"Senior Frontend Engineer\",\n      \"duration\": \"Jan 2020 – Apr 2021\",\n      \"location\": \"Switzerland (Remote from Madrid)\",\n      \"technologies\": [\n        \"JavaScript (ES6+)\",\n        \"React\",\n        \"Redux\",\n        \"WebGL/Three.js\",\n        \"Node.js\"\n      ],\n      \"achievements\": [\n        \"Engineered high-performance 3D data visualization with 60fps rendering\",\n        \"Built component architecture for rapid Real Estate product prototyping\",\n        \"Implemented WebGL/Three.js solutions for complex geospatial data rendering\",\n        \"Optimized massive dataset handling and real-time visualization performance\"\n      ]\n    },\n    {\n      \"company\": \"Cesce\",\n      \"position\": \"Frontend Developer\",\n      \"duration\": \"Sep 2017 – Jan 2020\",\n      \"location\": \"Madrid\",\n      \"technologies\": [\n        \"JavaScript\",\n        \"React\",\n        \"HTML5/SCSS\"\n      ],\n      \"achievements\": [\n        \"Developed regulatory-compliant interfaces for financial risk analysis\",\n        \"Built production systems serving 20k+ B2B customers with 100% uptime\"\n      ]\n    }\n  ],\n  \"projects\": []\n}\n```\n\n## TARGET JOB DESCRIPTION:\n```\nNode and Python for Backend, Vue for frontend.\nDashboard creation, matching vendors-customers plantform, heavy backend, \n```\n\n## USER INSTRUCTIONS:\nadd python on the stack of enso and mindera. in the technical specialties section Vue and Go are just listed, try to give them context adding in 2-3 words each. \n\nApply the requested changes while maintaining truthfulness. Return the JSON with resumeData, changeSummary, and changes array.",
+      "changeSummary": "Added Python to Enso and Mindera stacks and added context to Vue and Go in the technical specialties section.",
+      "changes": [
+        {
+          "section": "experience",
+          "field": "Enso Coliving - technologies",
+          "description": "Added Python to the technologies list."
+        },
+        {
+          "section": "experience",
+          "field": "Mindera - technologies",
+          "description": "Added Python to the technologies list."
+        },
+        {
+          "section": "interests",
+          "field": "Technical Specialties",
+          "description": "Added context to Vue and Go."
+        }
+      ]
+    },
+    {
+      "id": "1770208910711-0m33bh9",
+      "companyId": "1770206213558-ekkbzlg",
+      "companyName": "Keelvar",
+      "jobTitle": "Senior Product Engineer Backend heavy",
+      "jobDescription": "Node and Python for Backend, Vue for frontend.\nDashboard creation, matching vendors-customers plantform, heavy backend, ",
+      "notes": "Emphasize my product mindset, stakeholder management, project/product management. Emphasize my backend skills primarily Node in start ups and Python for Data heavy ops and AI, profficiency Backend, typescript, react and Vue for frontend, tanstack, next js, \nWhat I will be doing in my desired job at keelvar: Dashboard creation, matching vendors-customers plantform, heavy backend. Add some AWS and infra that they maybe using, not like im an expert, but strong familiiarity with them.\nMake sure you stick to current length, make only changes that substitute the curernt content, without making it longer than it is",
+      "baseVersionId": "product-engineer",
+      "resumeData": {
+        "personalDetails": {
+          "fullName": "Marcos Montero",
+          "title": "Senior Product Engineer (Backend Focus)",
+          "phone": "+34 696013104",
+          "email": "marcos.mon.rod@gmail.com",
+          "linkedin": "/in/-marcos-montero",
+          "github": "/Marcos-Montero",
+          "location": "Madrid, Spain"
+        },
+        "summary": "Product-minded Senior Engineer with 8+ years of experience driving technical execution and delivering business value. Expertise in backend development (Node.js, Python) and full-stack capabilities (Vue, React, Next.js). Focused on building data-driven products and matching platform solutions.",
+        "languages": [
+          {
+            "name": "Spanish",
+            "level": "Native (C2)"
+          },
+          {
+            "name": "English",
+            "level": "Professional (C1)"
+          },
+          {
+            "name": "Euskera",
+            "level": "Conversational (B1)"
+          }
+        ],
+        "education": [
+          {
+            "institution": "Boot.dev",
+            "degree": "Computer Science & Backend Engineering",
+            "description": "Go, Docker, Algorithms"
+          },
+          {
+            "institution": "Frontend Masters",
+            "degree": "Advanced React, Next.js, & System Architecture paths"
+          },
+          {
+            "institution": "Complutense University of Madrid",
+            "degree": "Bachelor's Degree in Philosophy",
+            "year": "2017"
+          }
+        ],
+        "memberships": [
+          {
+            "organization": "Mensa International",
+            "role": "Member",
+            "since": "2024"
+          }
+        ],
+        "interests": [
+          {
+            "title": "Mensa International",
+            "description": "Member & active collaborator"
+          },
+          {
+            "title": "AI & Data Products",
+            "description": "Currently developing AI-powered tools using modern LLM APIs and vector databases"
+          },
+          {
+            "title": "Technical Specialties",
+            "description": "PostgreSQL Database Design & Optimization • Python Data Processing & ETL Pipelines • Docker Containerization & CI/CD • System Integration & API Design • Team Leadership & Code Review Processes • React/Next.js/Vue Frontend Architecture • Optimized Backend Services"
+          }
+        ],
+        "skills": [
+          {
+            "category": "Core Backend",
+            "items": [
+              "Node.js",
+              "Python",
+              "TypeScript",
+              "PostgreSQL",
+              "Data Migration",
+              "API Design"
+            ]
+          },
+          {
+            "category": "Frontend & Frameworks",
+            "items": [
+              "Vue",
+              "React",
+              "Next.js",
+              "Tanstack",
+              "Supabase"
+            ]
+          },
+          {
+            "category": "Data & AI",
+            "items": [
+              "Vector DBs",
+              "OpenAI API",
+              "RAG"
+            ]
+          },
+          {
+            "category": "Infra & Cloud",
+            "items": [
+              "Docker",
+              "AWS (Familiar)"
+            ]
+          },
+          {
+            "category": "Project Management & Leadership",
+            "items": [
+              "Stakeholder Management",
+              "Team Leadership",
+              "Ownership",
+              "Product Management"
+            ]
+          }
+        ],
+        "experience": [
+          {
+            "company": "Enso Coliving",
+            "industry": "Real Estate",
+            "position": "Founding Tech Lead / CTO",
+            "duration": "Apr 2023 – Oct 2025",
+            "location": "Madrid",
+            "technologies": [
+              "Next.js (App Router)",
+              "TypeScript",
+              "React",
+              "Node.js",
+              "PostgreSQL",
+              "Supabase (Auth, DB, Vector)",
+              "Python",
+              "Stripe API"
+            ],
+            "achievements": [
+              "Engineered Self-Serve Booking Engine with Stripe webhook integration, automated invoicing, and dynamic pricing algorithms for €30k/month revenue",
+              "Built algorithmic tenant qualification system using Python pandas for data analysis and machine learning scoring models, reducing manual operations 90%",
+              "Architected data consolidation system with custom APIs integrating Notion, Airtable, and Monday.com into unified PostgreSQL database with real-time sync",
+              "Created vector databases using pgvector extension for semantic search and AI-powered property recommendations with OpenAI embeddings",
+              "Designed intelligent matchmaking system analyzing user compatibility through JSON schema validation and recommendation algorithms"
+            ]
+          },
+          {
+            "company": "Mindera",
+            "position": "Senior Frontend Engineer / Frontend Architect",
+            "duration": "Apr 2021 – Apr 2023",
+            "location": "UK & US clients (Remote)",
+            "technologies": [
+              "TypeScript",
+              "React",
+              "React Native",
+              "Node.js",
+              "GraphQL",
+              "Jest",
+              "Vue",
+              "Python"
+            ],
+            "achievements": [
+              "Built scalable React applications with Redux Toolkit, React Query for server state management, and optimized bundle splitting for UK/US enterprise clients",
+              "Implemented comprehensive CI/CD pipelines using GitHub Actions, Docker multi-stage builds, and automated deployment to AWS ECS with blue-green strategy",
+              "Developed high-performance frontend architectures using Webpack 5 module federation, lazy loading, and service workers for offline-first PWA functionality",
+              "Integrated GraphQL APIs using Apollo Client, implemented caching strategies, optimistic updates, and real-time subscriptions for enhanced UX"
+            ]
+          },
+          {
+            "company": "Nomoko",
+            "position": "Senior Frontend Engineer",
+            "duration": "Jan 2020 – Apr 2021",
+            "location": "Switzerland (Remote from Madrid)",
+            "technologies": [
+              "JavaScript (ES6+)",
+              "React",
+              "Redux",
+              "WebGL/Three.js",
+              "Node.js"
+            ],
+            "achievements": [
+              "Engineered high-performance 3D data visualization with 60fps rendering",
+              "Built component architecture for rapid Real Estate product prototyping",
+              "Implemented WebGL/Three.js solutions for complex geospatial data rendering",
+              "Optimized massive dataset handling and real-time visualization performance"
+            ]
+          },
+          {
+            "company": "Cesce",
+            "position": "Frontend Developer",
+            "duration": "Sep 2017 – Jan 2020",
+            "location": "Madrid",
+            "technologies": [
+              "JavaScript",
+              "React",
+              "HTML5/SCSS"
+            ],
+            "achievements": [
+              "Developed regulatory-compliant interfaces for financial risk analysis",
+              "Built production systems serving 20k+ B2B customers with 100% uptime"
+            ]
+          }
+        ],
+        "projects": []
+      },
+      "createdAt": "2026-02-04T12:41:50.711Z",
+      "updatedAt": "2026-02-04T12:41:50.711Z",
+      "version": 6,
+      "llmPromptUsed": "Modify this resume according to the user's instructions.\n\n## CURRENT RESUME:\n```json\n{\n  \"personalDetails\": {\n    \"fullName\": \"Marcos Montero\",\n    \"title\": \"Senior Product Engineer (Backend Focus)\",\n    \"phone\": \"+34 696013104\",\n    \"email\": \"marcos.mon.rod@gmail.com\",\n    \"linkedin\": \"/in/-marcos-montero\",\n    \"github\": \"/Marcos-Montero\",\n    \"location\": \"Madrid, Spain\"\n  },\n  \"summary\": \"Product-minded Senior Engineer with 8+ years of experience driving technical execution and delivering business value. Expertise in backend development (Node.js, Python) and full-stack capabilities (Vue, React, Next.js). Focused on building data-driven products and matching platform solutions.\",\n  \"languages\": [\n    {\n      \"name\": \"Spanish\",\n      \"level\": \"Native (C2)\"\n    },\n    {\n      \"name\": \"English\",\n      \"level\": \"Professional (C1)\"\n    },\n    {\n      \"name\": \"Euskera\",\n      \"level\": \"Conversational (B1)\"\n    }\n  ],\n  \"education\": [\n    {\n      \"institution\": \"Boot.dev\",\n      \"degree\": \"Computer Science & Backend Engineering\",\n      \"description\": \"Go, Docker, Algorithms\"\n    },\n    {\n      \"institution\": \"Frontend Masters\",\n      \"degree\": \"Advanced React, Next.js, & System Architecture paths\"\n    },\n    {\n      \"institution\": \"Complutense University of Madrid\",\n      \"degree\": \"Bachelor's Degree in Philosophy\",\n      \"year\": \"2017\"\n    }\n  ],\n  \"memberships\": [\n    {\n      \"organization\": \"Mensa International\",\n      \"role\": \"Member\",\n      \"since\": \"2024\"\n    }\n  ],\n  \"interests\": [\n    {\n      \"title\": \"Mensa International\",\n      \"description\": \"Member & active collaborator\"\n    },\n    {\n      \"title\": \"AI & Data Products\",\n      \"description\": \"Currently developing AI-powered tools using modern LLM APIs and vector databases\"\n    },\n    {\n      \"title\": \"Technical Specialties\",\n      \"description\": \"PostgreSQL Database Design & Optimization • Python Data Processing & ETL Pipelines • Docker Containerization & CI/CD • System Integration & API Design • Team Leadership & Code Review Processes • React/Next.js Frontend Architecture • Vue (UI Framework) • Go (Backend Language)\"\n    }\n  ],\n  \"skills\": [\n    {\n      \"category\": \"Core Backend\",\n      \"items\": [\n        \"Node.js\",\n        \"Python\",\n        \"TypeScript\",\n        \"PostgreSQL\",\n        \"Data Migration\",\n        \"API Design\"\n      ]\n    },\n    {\n      \"category\": \"Frontend & Frameworks\",\n      \"items\": [\n        \"Vue\",\n        \"React\",\n        \"Next.js\",\n        \"Tanstack\",\n        \"Supabase\"\n      ]\n    },\n    {\n      \"category\": \"Data & AI\",\n      \"items\": [\n        \"Vector DBs\",\n        \"OpenAI API\",\n        \"RAG\"\n      ]\n    },\n    {\n      \"category\": \"Infra & Cloud\",\n      \"items\": [\n        \"Docker\",\n        \"AWS (Familiar)\"\n      ]\n    },\n    {\n      \"category\": \"Project Management & Leadership\",\n      \"items\": [\n        \"Stakeholder Management\",\n        \"Team Leadership\",\n        \"Ownership\",\n        \"Product Management\"\n      ]\n    }\n  ],\n  \"experience\": [\n    {\n      \"company\": \"Enso Coliving\",\n      \"industry\": \"Real Estate\",\n      \"position\": \"Founding Tech Lead / CTO\",\n      \"duration\": \"Apr 2023 – Oct 2025\",\n      \"location\": \"Madrid\",\n      \"technologies\": [\n        \"Next.js (App Router)\",\n        \"TypeScript\",\n        \"React\",\n        \"Node.js\",\n        \"PostgreSQL\",\n        \"Supabase (Auth, DB, Vector)\",\n        \"Python\",\n        \"Stripe API\"\n      ],\n      \"achievements\": [\n        \"Engineered Self-Serve Booking Engine with Stripe webhook integration, automated invoicing, and dynamic pricing algorithms for €30k/month revenue\",\n        \"Built algorithmic tenant qualification system using Python pandas for data analysis and machine learning scoring models, reducing manual operations 90%\",\n        \"Architected data consolidation system with custom APIs integrating Notion, Airtable, and Monday.com into unified PostgreSQL database with real-time sync\",\n        \"Created vector databases using pgvector extension for semantic search and AI-powered property recommendations with OpenAI embeddings\",\n        \"Designed intelligent matchmaking system analyzing user compatibility through JSON schema validation and recommendation algorithms\"\n      ]\n    },\n    {\n      \"company\": \"Mindera\",\n      \"position\": \"Senior Frontend Engineer / Frontend Architect\",\n      \"duration\": \"Apr 2021 – Apr 2023\",\n      \"location\": \"UK & US clients (Remote)\",\n      \"technologies\": [\n        \"TypeScript\",\n        \"React\",\n        \"React Native\",\n        \"Node.js\",\n        \"GraphQL\",\n        \"Jest\",\n        \"Vue\",\n        \"Python\"\n      ],\n      \"achievements\": [\n        \"Built scalable React applications with Redux Toolkit, React Query for server state management, and optimized bundle splitting for UK/US enterprise clients\",\n        \"Implemented comprehensive CI/CD pipelines using GitHub Actions, Docker multi-stage builds, and automated deployment to AWS ECS with blue-green strategy\",\n        \"Developed high-performance frontend architectures using Webpack 5 module federation, lazy loading, and service workers for offline-first PWA functionality\",\n        \"Integrated GraphQL APIs using Apollo Client, implemented caching strategies, optimistic updates, and real-time subscriptions for enhanced UX\"\n      ]\n    },\n    {\n      \"company\": \"Nomoko\",\n      \"position\": \"Senior Frontend Engineer\",\n      \"duration\": \"Jan 2020 – Apr 2021\",\n      \"location\": \"Switzerland (Remote from Madrid)\",\n      \"technologies\": [\n        \"JavaScript (ES6+)\",\n        \"React\",\n        \"Redux\",\n        \"WebGL/Three.js\",\n        \"Node.js\"\n      ],\n      \"achievements\": [\n        \"Engineered high-performance 3D data visualization with 60fps rendering\",\n        \"Built component architecture for rapid Real Estate product prototyping\",\n        \"Implemented WebGL/Three.js solutions for complex geospatial data rendering\",\n        \"Optimized massive dataset handling and real-time visualization performance\"\n      ]\n    },\n    {\n      \"company\": \"Cesce\",\n      \"position\": \"Frontend Developer\",\n      \"duration\": \"Sep 2017 – Jan 2020\",\n      \"location\": \"Madrid\",\n      \"technologies\": [\n        \"JavaScript\",\n        \"React\",\n        \"HTML5/SCSS\"\n      ],\n      \"achievements\": [\n        \"Developed regulatory-compliant interfaces for financial risk analysis\",\n        \"Built production systems serving 20k+ B2B customers with 100% uptime\"\n      ]\n    }\n  ],\n  \"projects\": []\n}\n```\n\n## TARGET JOB DESCRIPTION:\n```\nNode and Python for Backend, Vue for frontend.\nDashboard creation, matching vendors-customers plantform, heavy backend, \n```\n\n## USER INSTRUCTIONS:\nin technical specialties section change the bullet points of vue and go for:\n- Vue should be just addded in the list of react / next.js frontend architecture\n- Go for optimized backend services\n\nApply the requested changes while maintaining truthfulness. Return the JSON with resumeData, changeSummary, and changes array.",
+      "changeSummary": "Updated technical specialties to reflect the job description's emphasis on Vue and backend optimization.",
+      "changes": [
+        {
+          "section": "interests",
+          "field": "Technical Specialties",
+          "description": "Combined Vue with React/Next.js and replaced Go with 'Optimized Backend Services'"
+        }
+      ]
+    },
+    {
+      "id": "1770208974681-8mgqre1",
+      "companyId": "1770206213558-ekkbzlg",
+      "companyName": "Keelvar",
+      "jobTitle": "Senior Product Engineer Backend heavy",
+      "jobDescription": "Node and Python for Backend, Vue for frontend.\nDashboard creation, matching vendors-customers plantform, heavy backend, ",
+      "notes": "Emphasize my product mindset, stakeholder management, project/product management. Emphasize my backend skills primarily Node in start ups and Python for Data heavy ops and AI, profficiency Backend, typescript, react and Vue for frontend, tanstack, next js, \nWhat I will be doing in my desired job at keelvar: Dashboard creation, matching vendors-customers plantform, heavy backend. Add some AWS and infra that they maybe using, not like im an expert, but strong familiiarity with them.\nMake sure you stick to current length, make only changes that substitute the curernt content, without making it longer than it is",
+      "baseVersionId": "product-engineer",
+      "resumeData": {
+        "personalDetails": {
+          "fullName": "Marcos Montero",
+          "title": "Senior Product Engineer (Backend Focus)",
+          "phone": "+34 696013104",
+          "email": "marcos.mon.rod@gmail.com",
+          "linkedin": "/in/-marcos-montero",
+          "github": "/Marcos-Montero",
+          "location": "Madrid, Spain"
+        },
+        "summary": "Product-minded Senior Engineer with 8+ years of experience driving technical execution and delivering business value. Expertise in backend development (Node.js, Python) and full-stack capabilities (Vue, React, Next.js). Focused on building data-driven products and matching platform solutions.",
+        "languages": [
+          {
+            "name": "Spanish",
+            "level": "Native (C2)"
+          },
+          {
+            "name": "English",
+            "level": "Professional (C1)"
+          },
+          {
+            "name": "Euskera",
+            "level": "Conversational (B1)"
+          }
+        ],
+        "education": [
+          {
+            "institution": "Boot.dev",
+            "degree": "Computer Science & Backend Engineering",
+            "description": "Go, Docker, Algorithms"
+          },
+          {
+            "institution": "Frontend Masters",
+            "degree": "Advanced React, Next.js, & System Architecture paths"
+          },
+          {
+            "institution": "Complutense University of Madrid",
+            "degree": "Bachelor's Degree in Philosophy",
+            "year": "2017"
+          }
+        ],
+        "memberships": [
+          {
+            "organization": "Mensa International",
+            "role": "Member",
+            "since": "2024"
+          }
+        ],
+        "interests": [
+          {
+            "title": "Mensa International",
+            "description": "Member & active collaborator"
+          },
+          {
+            "title": "AI & Data Products",
+            "description": "Currently developing AI-powered tools using modern LLM APIs and vector databases"
+          },
+          {
+            "title": "Technical Specialties",
+            "description": "PostgreSQL Database Design & Optimization • Python Data Processing & ETL Pipelines • Docker Containerization & CI/CD • System Integration & API Design • Team Leadership & Code Review Processes • React/Next.js/Vue Frontend Architecture • GO for Optimized Backend Services"
+          }
+        ],
+        "skills": [
+          {
+            "category": "Core Backend",
+            "items": [
+              "Node.js",
+              "Python",
+              "TypeScript",
+              "PostgreSQL",
+              "Data Migration",
+              "API Design"
+            ]
+          },
+          {
+            "category": "Frontend & Frameworks",
+            "items": [
+              "Vue",
+              "React",
+              "Next.js",
+              "Tanstack",
+              "Supabase"
+            ]
+          },
+          {
+            "category": "Data & AI",
+            "items": [
+              "Vector DBs",
+              "OpenAI API",
+              "RAG"
+            ]
+          },
+          {
+            "category": "Infra & Cloud",
+            "items": [
+              "Docker",
+              "AWS (Familiar)"
+            ]
+          },
+          {
+            "category": "Project Management & Leadership",
+            "items": [
+              "Stakeholder Management",
+              "Team Leadership",
+              "Ownership",
+              "Product Management"
+            ]
+          }
+        ],
+        "experience": [
+          {
+            "company": "Enso Coliving",
+            "industry": "Real Estate",
+            "position": "Founding Tech Lead / CTO",
+            "duration": "Apr 2023 – Oct 2025",
+            "location": "Madrid",
+            "technologies": [
+              "Next.js (App Router)",
+              "TypeScript",
+              "React",
+              "Node.js",
+              "PostgreSQL",
+              "Supabase (Auth, DB, Vector)",
+              "Python",
+              "Stripe API"
+            ],
+            "achievements": [
+              "Engineered Self-Serve Booking Engine with Stripe webhook integration, automated invoicing, and dynamic pricing algorithms for €30k/month revenue",
+              "Built algorithmic tenant qualification system using Python pandas for data analysis and machine learning scoring models, reducing manual operations 90%",
+              "Architected data consolidation system with custom APIs integrating Notion, Airtable, and Monday.com into unified PostgreSQL database with real-time sync",
+              "Created vector databases using pgvector extension for semantic search and AI-powered property recommendations with OpenAI embeddings",
+              "Designed intelligent matchmaking system analyzing user compatibility through JSON schema validation and recommendation algorithms"
+            ]
+          },
+          {
+            "company": "Mindera",
+            "position": "Senior Frontend Engineer / Frontend Architect",
+            "duration": "Apr 2021 – Apr 2023",
+            "location": "UK & US clients (Remote)",
+            "technologies": [
+              "TypeScript",
+              "React",
+              "React Native",
+              "Node.js",
+              "GraphQL",
+              "Jest",
+              "Vue",
+              "Python"
+            ],
+            "achievements": [
+              "Built scalable React applications with Redux Toolkit, React Query for server state management, and optimized bundle splitting for UK/US enterprise clients",
+              "Implemented comprehensive CI/CD pipelines using GitHub Actions, Docker multi-stage builds, and automated deployment to AWS ECS with blue-green strategy",
+              "Developed high-performance frontend architectures using Webpack 5 module federation, lazy loading, and service workers for offline-first PWA functionality",
+              "Integrated GraphQL APIs using Apollo Client, implemented caching strategies, optimistic updates, and real-time subscriptions for enhanced UX"
+            ]
+          },
+          {
+            "company": "Nomoko",
+            "position": "Senior Frontend Engineer",
+            "duration": "Jan 2020 – Apr 2021",
+            "location": "Switzerland (Remote from Madrid)",
+            "technologies": [
+              "JavaScript (ES6+)",
+              "React",
+              "Redux",
+              "WebGL/Three.js",
+              "Node.js"
+            ],
+            "achievements": [
+              "Engineered high-performance 3D data visualization with 60fps rendering",
+              "Built component architecture for rapid Real Estate product prototyping",
+              "Implemented WebGL/Three.js solutions for complex geospatial data rendering",
+              "Optimized massive dataset handling and real-time visualization performance"
+            ]
+          },
+          {
+            "company": "Cesce",
+            "position": "Frontend Developer",
+            "duration": "Sep 2017 – Jan 2020",
+            "location": "Madrid",
+            "technologies": [
+              "JavaScript",
+              "React",
+              "HTML5/SCSS"
+            ],
+            "achievements": [
+              "Developed regulatory-compliant interfaces for financial risk analysis",
+              "Built production systems serving 20k+ B2B customers with 100% uptime"
+            ]
+          }
+        ],
+        "projects": []
+      },
+      "createdAt": "2026-02-04T12:42:54.681Z",
+      "updatedAt": "2026-02-04T12:42:54.681Z",
+      "version": 7,
+      "llmPromptUsed": "Modify this resume according to the user's instructions.\n\n## CURRENT RESUME:\n```json\n{\n  \"personalDetails\": {\n    \"fullName\": \"Marcos Montero\",\n    \"title\": \"Senior Product Engineer (Backend Focus)\",\n    \"phone\": \"+34 696013104\",\n    \"email\": \"marcos.mon.rod@gmail.com\",\n    \"linkedin\": \"/in/-marcos-montero\",\n    \"github\": \"/Marcos-Montero\",\n    \"location\": \"Madrid, Spain\"\n  },\n  \"summary\": \"Product-minded Senior Engineer with 8+ years of experience driving technical execution and delivering business value. Expertise in backend development (Node.js, Python) and full-stack capabilities (Vue, React, Next.js). Focused on building data-driven products and matching platform solutions.\",\n  \"languages\": [\n    {\n      \"name\": \"Spanish\",\n      \"level\": \"Native (C2)\"\n    },\n    {\n      \"name\": \"English\",\n      \"level\": \"Professional (C1)\"\n    },\n    {\n      \"name\": \"Euskera\",\n      \"level\": \"Conversational (B1)\"\n    }\n  ],\n  \"education\": [\n    {\n      \"institution\": \"Boot.dev\",\n      \"degree\": \"Computer Science & Backend Engineering\",\n      \"description\": \"Go, Docker, Algorithms\"\n    },\n    {\n      \"institution\": \"Frontend Masters\",\n      \"degree\": \"Advanced React, Next.js, & System Architecture paths\"\n    },\n    {\n      \"institution\": \"Complutense University of Madrid\",\n      \"degree\": \"Bachelor's Degree in Philosophy\",\n      \"year\": \"2017\"\n    }\n  ],\n  \"memberships\": [\n    {\n      \"organization\": \"Mensa International\",\n      \"role\": \"Member\",\n      \"since\": \"2024\"\n    }\n  ],\n  \"interests\": [\n    {\n      \"title\": \"Mensa International\",\n      \"description\": \"Member & active collaborator\"\n    },\n    {\n      \"title\": \"AI & Data Products\",\n      \"description\": \"Currently developing AI-powered tools using modern LLM APIs and vector databases\"\n    },\n    {\n      \"title\": \"Technical Specialties\",\n      \"description\": \"PostgreSQL Database Design & Optimization • Python Data Processing & ETL Pipelines • Docker Containerization & CI/CD • System Integration & API Design • Team Leadership & Code Review Processes • React/Next.js/Vue Frontend Architecture • Optimized Backend Services\"\n    }\n  ],\n  \"skills\": [\n    {\n      \"category\": \"Core Backend\",\n      \"items\": [\n        \"Node.js\",\n        \"Python\",\n        \"TypeScript\",\n        \"PostgreSQL\",\n        \"Data Migration\",\n        \"API Design\"\n      ]\n    },\n    {\n      \"category\": \"Frontend & Frameworks\",\n      \"items\": [\n        \"Vue\",\n        \"React\",\n        \"Next.js\",\n        \"Tanstack\",\n        \"Supabase\"\n      ]\n    },\n    {\n      \"category\": \"Data & AI\",\n      \"items\": [\n        \"Vector DBs\",\n        \"OpenAI API\",\n        \"RAG\"\n      ]\n    },\n    {\n      \"category\": \"Infra & Cloud\",\n      \"items\": [\n        \"Docker\",\n        \"AWS (Familiar)\"\n      ]\n    },\n    {\n      \"category\": \"Project Management & Leadership\",\n      \"items\": [\n        \"Stakeholder Management\",\n        \"Team Leadership\",\n        \"Ownership\",\n        \"Product Management\"\n      ]\n    }\n  ],\n  \"experience\": [\n    {\n      \"company\": \"Enso Coliving\",\n      \"industry\": \"Real Estate\",\n      \"position\": \"Founding Tech Lead / CTO\",\n      \"duration\": \"Apr 2023 – Oct 2025\",\n      \"location\": \"Madrid\",\n      \"technologies\": [\n        \"Next.js (App Router)\",\n        \"TypeScript\",\n        \"React\",\n        \"Node.js\",\n        \"PostgreSQL\",\n        \"Supabase (Auth, DB, Vector)\",\n        \"Python\",\n        \"Stripe API\"\n      ],\n      \"achievements\": [\n        \"Engineered Self-Serve Booking Engine with Stripe webhook integration, automated invoicing, and dynamic pricing algorithms for €30k/month revenue\",\n        \"Built algorithmic tenant qualification system using Python pandas for data analysis and machine learning scoring models, reducing manual operations 90%\",\n        \"Architected data consolidation system with custom APIs integrating Notion, Airtable, and Monday.com into unified PostgreSQL database with real-time sync\",\n        \"Created vector databases using pgvector extension for semantic search and AI-powered property recommendations with OpenAI embeddings\",\n        \"Designed intelligent matchmaking system analyzing user compatibility through JSON schema validation and recommendation algorithms\"\n      ]\n    },\n    {\n      \"company\": \"Mindera\",\n      \"position\": \"Senior Frontend Engineer / Frontend Architect\",\n      \"duration\": \"Apr 2021 – Apr 2023\",\n      \"location\": \"UK & US clients (Remote)\",\n      \"technologies\": [\n        \"TypeScript\",\n        \"React\",\n        \"React Native\",\n        \"Node.js\",\n        \"GraphQL\",\n        \"Jest\",\n        \"Vue\",\n        \"Python\"\n      ],\n      \"achievements\": [\n        \"Built scalable React applications with Redux Toolkit, React Query for server state management, and optimized bundle splitting for UK/US enterprise clients\",\n        \"Implemented comprehensive CI/CD pipelines using GitHub Actions, Docker multi-stage builds, and automated deployment to AWS ECS with blue-green strategy\",\n        \"Developed high-performance frontend architectures using Webpack 5 module federation, lazy loading, and service workers for offline-first PWA functionality\",\n        \"Integrated GraphQL APIs using Apollo Client, implemented caching strategies, optimistic updates, and real-time subscriptions for enhanced UX\"\n      ]\n    },\n    {\n      \"company\": \"Nomoko\",\n      \"position\": \"Senior Frontend Engineer\",\n      \"duration\": \"Jan 2020 – Apr 2021\",\n      \"location\": \"Switzerland (Remote from Madrid)\",\n      \"technologies\": [\n        \"JavaScript (ES6+)\",\n        \"React\",\n        \"Redux\",\n        \"WebGL/Three.js\",\n        \"Node.js\"\n      ],\n      \"achievements\": [\n        \"Engineered high-performance 3D data visualization with 60fps rendering\",\n        \"Built component architecture for rapid Real Estate product prototyping\",\n        \"Implemented WebGL/Three.js solutions for complex geospatial data rendering\",\n        \"Optimized massive dataset handling and real-time visualization performance\"\n      ]\n    },\n    {\n      \"company\": \"Cesce\",\n      \"position\": \"Frontend Developer\",\n      \"duration\": \"Sep 2017 – Jan 2020\",\n      \"location\": \"Madrid\",\n      \"technologies\": [\n        \"JavaScript\",\n        \"React\",\n        \"HTML5/SCSS\"\n      ],\n      \"achievements\": [\n        \"Developed regulatory-compliant interfaces for financial risk analysis\",\n        \"Built production systems serving 20k+ B2B customers with 100% uptime\"\n      ]\n    }\n  ],\n  \"projects\": []\n}\n```\n\n## TARGET JOB DESCRIPTION:\n```\nNode and Python for Backend, Vue for frontend.\nDashboard creation, matching vendors-customers plantform, heavy backend, \n```\n\n## USER INSTRUCTIONS:\nin technical specialties, the last bullet point should say GO for optimized backend services\n\nApply the requested changes while maintaining truthfulness. Return the JSON with resumeData, changeSummary, and changes array.",
+      "changeSummary": "Updated the technical specialties to include GO for optimized backend services.",
+      "changes": [
+        {
+          "section": "interests",
+          "field": "Technical Specialties",
+          "description": "Updated the last bullet point to say GO for optimized backend services"
+        }
+      ]
+    },
+    {
+      "id": "1770209036250-5zl355i",
+      "companyId": "1770206213558-ekkbzlg",
+      "companyName": "Keelvar",
+      "jobTitle": "Senior Product Engineer Backend heavy",
+      "jobDescription": "Node and Python for Backend, Vue for frontend.\nDashboard creation, matching vendors-customers plantform, heavy backend, ",
+      "notes": "Emphasize my product mindset, stakeholder management, project/product management. Emphasize my backend skills primarily Node in start ups and Python for Data heavy ops and AI, profficiency Backend, typescript, react and Vue for frontend, tanstack, next js, \nWhat I will be doing in my desired job at keelvar: Dashboard creation, matching vendors-customers plantform, heavy backend. Add some AWS and infra that they maybe using, not like im an expert, but strong familiiarity with them.\nMake sure you stick to current length, make only changes that substitute the curernt content, without making it longer than it is",
+      "baseVersionId": "product-engineer",
+      "resumeData": {
+        "personalDetails": {
+          "fullName": "Marcos Montero",
+          "title": "Senior Product Engineer (Backend Focus)",
+          "phone": "+34 696013104",
+          "email": "marcos.mon.rod@gmail.com",
+          "linkedin": "/in/-marcos-montero",
+          "github": "/Marcos-Montero",
+          "location": "Madrid, Spain"
+        },
+        "summary": "Product-minded Senior Engineer with 8+ years of experience driving technical execution and delivering business value. Expertise in backend development (Node.js, Python) and full-stack capabilities (Vue, React, Next.js). Focused on building data-driven products and matching platform solutions.",
+        "languages": [
+          {
+            "name": "Spanish",
+            "level": "Native (C2)"
+          },
+          {
+            "name": "English",
+            "level": "Professional (C1)"
+          },
+          {
+            "name": "Euskera",
+            "level": "Conversational (B1)"
+          }
+        ],
+        "education": [
+          {
+            "institution": "Boot.dev",
+            "degree": "Computer Science & Backend Engineering",
+            "description": "Go, Docker, Algorithms"
+          },
+          {
+            "institution": "Frontend Masters",
+            "degree": "Advanced React, Next.js, & System Architecture paths"
+          },
+          {
+            "institution": "Complutense University of Madrid",
+            "degree": "Bachelor's Degree in Philosophy",
+            "year": "2017"
+          }
+        ],
+        "memberships": [
+          {
+            "organization": "Mensa International",
+            "role": "Member",
+            "since": "2024"
+          }
+        ],
+        "interests": [
+          {
+            "title": "AI & Data Products",
+            "description": "Currently developing AI-powered tools using modern LLM APIs and vector databases"
+          },
+          {
+            "title": "Technical Specialties",
+            "description": "PostgreSQL Database Design & Optimization • Python Data Processing & ETL Pipelines • Docker Containerization & CI/CD • System Integration & API Design • Team Leadership & Code Review Processes • React/Next.js/Vue Frontend Architecture • GO for Optimized Backend Services"
+          }
+        ],
+        "skills": [
+          {
+            "category": "Core Backend",
+            "items": [
+              "Node.js",
+              "Python",
+              "TypeScript",
+              "PostgreSQL",
+              "Data Migration",
+              "API Design"
+            ]
+          },
+          {
+            "category": "Frontend & Frameworks",
+            "items": [
+              "Vue",
+              "React",
+              "Next.js",
+              "Tanstack",
+              "Supabase"
+            ]
+          },
+          {
+            "category": "Data & AI",
+            "items": [
+              "Vector DBs",
+              "OpenAI API",
+              "RAG"
+            ]
+          },
+          {
+            "category": "Infra & Cloud",
+            "items": [
+              "Docker",
+              "AWS (Familiar)"
+            ]
+          },
+          {
+            "category": "Project Management & Leadership",
+            "items": [
+              "Stakeholder Management",
+              "Team Leadership",
+              "Ownership",
+              "Product Management"
+            ]
+          }
+        ],
+        "experience": [
+          {
+            "company": "Enso Coliving",
+            "industry": "Real Estate",
+            "position": "Founding Tech Lead / CTO",
+            "duration": "Apr 2023 – Oct 2025",
+            "location": "Madrid",
+            "technologies": [
+              "Next.js (App Router)",
+              "TypeScript",
+              "React",
+              "Node.js",
+              "PostgreSQL",
+              "Supabase (Auth, DB, Vector)",
+              "Python",
+              "Stripe API"
+            ],
+            "achievements": [
+              "Engineered Self-Serve Booking Engine with Stripe webhook integration, automated invoicing, and dynamic pricing algorithms for €30k/month revenue",
+              "Built algorithmic tenant qualification system using Python pandas for data analysis and machine learning scoring models, reducing manual operations 90%",
+              "Architected data consolidation system with custom APIs integrating Notion, Airtable, and Monday.com into unified PostgreSQL database with real-time sync",
+              "Created vector databases using pgvector extension for semantic search and AI-powered property recommendations with OpenAI embeddings",
+              "Designed intelligent matchmaking system analyzing user compatibility through JSON schema validation and recommendation algorithms"
+            ]
+          },
+          {
+            "company": "Mindera",
+            "position": "Senior Frontend Engineer / Frontend Architect",
+            "duration": "Apr 2021 – Apr 2023",
+            "location": "UK & US clients (Remote)",
+            "technologies": [
+              "TypeScript",
+              "React",
+              "React Native",
+              "Node.js",
+              "GraphQL",
+              "Jest",
+              "Vue",
+              "Python"
+            ],
+            "achievements": [
+              "Built scalable React applications with Redux Toolkit, React Query for server state management, and optimized bundle splitting for UK/US enterprise clients",
+              "Implemented comprehensive CI/CD pipelines using GitHub Actions, Docker multi-stage builds, and automated deployment to AWS ECS with blue-green strategy",
+              "Developed high-performance frontend architectures using Webpack 5 module federation, lazy loading, and service workers for offline-first PWA functionality",
+              "Integrated GraphQL APIs using Apollo Client, implemented caching strategies, optimistic updates, and real-time subscriptions for enhanced UX"
+            ]
+          },
+          {
+            "company": "Nomoko",
+            "position": "Senior Frontend Engineer",
+            "duration": "Jan 2020 – Apr 2021",
+            "location": "Switzerland (Remote from Madrid)",
+            "technologies": [
+              "JavaScript (ES6+)",
+              "React",
+              "Redux",
+              "WebGL/Three.js",
+              "Node.js"
+            ],
+            "achievements": [
+              "Engineered high-performance 3D data visualization with 60fps rendering",
+              "Built component architecture for rapid Real Estate product prototyping",
+              "Implemented WebGL/Three.js solutions for complex geospatial data rendering",
+              "Optimized massive dataset handling and real-time visualization performance"
+            ]
+          },
+          {
+            "company": "Cesce",
+            "position": "Frontend Developer",
+            "duration": "Sep 2017 – Jan 2020",
+            "location": "Madrid",
+            "technologies": [
+              "JavaScript",
+              "React",
+              "HTML5/SCSS"
+            ],
+            "achievements": [
+              "Developed regulatory-compliant interfaces for financial risk analysis",
+              "Built production systems serving 20k+ B2B customers with 100% uptime"
+            ]
+          }
+        ],
+        "projects": []
+      },
+      "createdAt": "2026-02-04T12:43:56.250Z",
+      "updatedAt": "2026-02-04T12:43:56.250Z",
+      "version": 8,
+      "llmPromptUsed": "Modify this resume according to the user's instructions.\n\n## CURRENT RESUME:\n```json\n{\n  \"personalDetails\": {\n    \"fullName\": \"Marcos Montero\",\n    \"title\": \"Senior Product Engineer (Backend Focus)\",\n    \"phone\": \"+34 696013104\",\n    \"email\": \"marcos.mon.rod@gmail.com\",\n    \"linkedin\": \"/in/-marcos-montero\",\n    \"github\": \"/Marcos-Montero\",\n    \"location\": \"Madrid, Spain\"\n  },\n  \"summary\": \"Product-minded Senior Engineer with 8+ years of experience driving technical execution and delivering business value. Expertise in backend development (Node.js, Python) and full-stack capabilities (Vue, React, Next.js). Focused on building data-driven products and matching platform solutions.\",\n  \"languages\": [\n    {\n      \"name\": \"Spanish\",\n      \"level\": \"Native (C2)\"\n    },\n    {\n      \"name\": \"English\",\n      \"level\": \"Professional (C1)\"\n    },\n    {\n      \"name\": \"Euskera\",\n      \"level\": \"Conversational (B1)\"\n    }\n  ],\n  \"education\": [\n    {\n      \"institution\": \"Boot.dev\",\n      \"degree\": \"Computer Science & Backend Engineering\",\n      \"description\": \"Go, Docker, Algorithms\"\n    },\n    {\n      \"institution\": \"Frontend Masters\",\n      \"degree\": \"Advanced React, Next.js, & System Architecture paths\"\n    },\n    {\n      \"institution\": \"Complutense University of Madrid\",\n      \"degree\": \"Bachelor's Degree in Philosophy\",\n      \"year\": \"2017\"\n    }\n  ],\n  \"memberships\": [\n    {\n      \"organization\": \"Mensa International\",\n      \"role\": \"Member\",\n      \"since\": \"2024\"\n    }\n  ],\n  \"interests\": [\n    {\n      \"title\": \"Mensa International\",\n      \"description\": \"Member & active collaborator\"\n    },\n    {\n      \"title\": \"AI & Data Products\",\n      \"description\": \"Currently developing AI-powered tools using modern LLM APIs and vector databases\"\n    },\n    {\n      \"title\": \"Technical Specialties\",\n      \"description\": \"PostgreSQL Database Design & Optimization • Python Data Processing & ETL Pipelines • Docker Containerization & CI/CD • System Integration & API Design • Team Leadership & Code Review Processes • React/Next.js/Vue Frontend Architecture • GO for Optimized Backend Services\"\n    }\n  ],\n  \"skills\": [\n    {\n      \"category\": \"Core Backend\",\n      \"items\": [\n        \"Node.js\",\n        \"Python\",\n        \"TypeScript\",\n        \"PostgreSQL\",\n        \"Data Migration\",\n        \"API Design\"\n      ]\n    },\n    {\n      \"category\": \"Frontend & Frameworks\",\n      \"items\": [\n        \"Vue\",\n        \"React\",\n        \"Next.js\",\n        \"Tanstack\",\n        \"Supabase\"\n      ]\n    },\n    {\n      \"category\": \"Data & AI\",\n      \"items\": [\n        \"Vector DBs\",\n        \"OpenAI API\",\n        \"RAG\"\n      ]\n    },\n    {\n      \"category\": \"Infra & Cloud\",\n      \"items\": [\n        \"Docker\",\n        \"AWS (Familiar)\"\n      ]\n    },\n    {\n      \"category\": \"Project Management & Leadership\",\n      \"items\": [\n        \"Stakeholder Management\",\n        \"Team Leadership\",\n        \"Ownership\",\n        \"Product Management\"\n      ]\n    }\n  ],\n  \"experience\": [\n    {\n      \"company\": \"Enso Coliving\",\n      \"industry\": \"Real Estate\",\n      \"position\": \"Founding Tech Lead / CTO\",\n      \"duration\": \"Apr 2023 – Oct 2025\",\n      \"location\": \"Madrid\",\n      \"technologies\": [\n        \"Next.js (App Router)\",\n        \"TypeScript\",\n        \"React\",\n        \"Node.js\",\n        \"PostgreSQL\",\n        \"Supabase (Auth, DB, Vector)\",\n        \"Python\",\n        \"Stripe API\"\n      ],\n      \"achievements\": [\n        \"Engineered Self-Serve Booking Engine with Stripe webhook integration, automated invoicing, and dynamic pricing algorithms for €30k/month revenue\",\n        \"Built algorithmic tenant qualification system using Python pandas for data analysis and machine learning scoring models, reducing manual operations 90%\",\n        \"Architected data consolidation system with custom APIs integrating Notion, Airtable, and Monday.com into unified PostgreSQL database with real-time sync\",\n        \"Created vector databases using pgvector extension for semantic search and AI-powered property recommendations with OpenAI embeddings\",\n        \"Designed intelligent matchmaking system analyzing user compatibility through JSON schema validation and recommendation algorithms\"\n      ]\n    },\n    {\n      \"company\": \"Mindera\",\n      \"position\": \"Senior Frontend Engineer / Frontend Architect\",\n      \"duration\": \"Apr 2021 – Apr 2023\",\n      \"location\": \"UK & US clients (Remote)\",\n      \"technologies\": [\n        \"TypeScript\",\n        \"React\",\n        \"React Native\",\n        \"Node.js\",\n        \"GraphQL\",\n        \"Jest\",\n        \"Vue\",\n        \"Python\"\n      ],\n      \"achievements\": [\n        \"Built scalable React applications with Redux Toolkit, React Query for server state management, and optimized bundle splitting for UK/US enterprise clients\",\n        \"Implemented comprehensive CI/CD pipelines using GitHub Actions, Docker multi-stage builds, and automated deployment to AWS ECS with blue-green strategy\",\n        \"Developed high-performance frontend architectures using Webpack 5 module federation, lazy loading, and service workers for offline-first PWA functionality\",\n        \"Integrated GraphQL APIs using Apollo Client, implemented caching strategies, optimistic updates, and real-time subscriptions for enhanced UX\"\n      ]\n    },\n    {\n      \"company\": \"Nomoko\",\n      \"position\": \"Senior Frontend Engineer\",\n      \"duration\": \"Jan 2020 – Apr 2021\",\n      \"location\": \"Switzerland (Remote from Madrid)\",\n      \"technologies\": [\n        \"JavaScript (ES6+)\",\n        \"React\",\n        \"Redux\",\n        \"WebGL/Three.js\",\n        \"Node.js\"\n      ],\n      \"achievements\": [\n        \"Engineered high-performance 3D data visualization with 60fps rendering\",\n        \"Built component architecture for rapid Real Estate product prototyping\",\n        \"Implemented WebGL/Three.js solutions for complex geospatial data rendering\",\n        \"Optimized massive dataset handling and real-time visualization performance\"\n      ]\n    },\n    {\n      \"company\": \"Cesce\",\n      \"position\": \"Frontend Developer\",\n      \"duration\": \"Sep 2017 – Jan 2020\",\n      \"location\": \"Madrid\",\n      \"technologies\": [\n        \"JavaScript\",\n        \"React\",\n        \"HTML5/SCSS\"\n      ],\n      \"achievements\": [\n        \"Developed regulatory-compliant interfaces for financial risk analysis\",\n        \"Built production systems serving 20k+ B2B customers with 100% uptime\"\n      ]\n    }\n  ],\n  \"projects\": []\n}\n```\n\n## TARGET JOB DESCRIPTION:\n```\nNode and Python for Backend, Vue for frontend.\nDashboard creation, matching vendors-customers plantform, heavy backend, \n```\n\n## USER INSTRUCTIONS:\nremove the mensa international member and active collaborator from the Interests sections, given that it's already in the other section of Interests\n\nApply the requested changes while maintaining truthfulness. Return the JSON with resumeData, changeSummary, and changes array.",
+      "changeSummary": "Removed duplicate mention of Mensa International from the Interests section to avoid redundancy.",
+      "changes": [
+        {
+          "section": "interests",
+          "field": "interests",
+          "description": "Removed Mensa International entry as it was already listed in the Memberships section."
+        }
+      ]
+    }
+  ],
+  "currentVersionId": "1770209036250-5zl355i",
+  "createdAt": "2026-02-04T11:56:53.558Z",
+  "updatedAt": "2026-02-04T12:44:12.452Z"
+}

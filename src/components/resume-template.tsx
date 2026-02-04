@@ -2,12 +2,57 @@
 
 import { Mail, Phone, MapPin, Linkedin, Github } from "lucide-react";
 import { ResumeData } from "@/types/resume";
+import { ChangeDetail } from "@/types/company-version";
 
-export function ResumeTemplate({ data }: { data: ResumeData }) {
+type HighlightWrapperProps = {
+  children: React.ReactNode;
+  section: string;
+  field: string;
+  changes?: ChangeDetail[];
+  showHighlights?: boolean;
+};
+
+function HighlightWrapper({ children, section, field, changes, showHighlights }: HighlightWrapperProps) {
+  if (!showHighlights || !changes) return <>{children}</>;
+  
+  const change = changes.find(
+    (c) => c.section.toLowerCase() === section.toLowerCase() && 
+           (c.field.toLowerCase().includes(field.toLowerCase()) || field.toLowerCase().includes(c.field.toLowerCase()))
+  );
+  
+  if (!change) return <>{children}</>;
+  
+  return (
+    <div className="relative group">
+      <div className="absolute -inset-0.5 bg-blue-200/50 rounded" />
+      <div className="relative">{children}</div>
+      <div className="absolute left-0 -top-6 hidden group-hover:block z-50 px-2 py-1 bg-blue-700 text-white text-[8px] rounded shadow-lg max-w-[200px] whitespace-normal">
+        {change.description}
+      </div>
+    </div>
+  );
+}
+
+export function ResumeTemplate({ 
+  data,
+  changes,
+  showHighlights = false,
+  showBorder = false,
+}: { 
+  data: ResumeData;
+  changes?: ChangeDetail[];
+  showHighlights?: boolean;
+  showBorder?: boolean;
+}) {
   const { personalDetails, summary, languages, education, memberships, interests, skills, experience } = data;
 
   return (
-    <div className="bg-white text-gray-900 w-[210mm] h-[297mm] mx-auto shadow-lg print:shadow-none overflow-hidden text-[10px] leading-[1.3]">
+    <div 
+      data-resume-template="true"
+      className={`bg-white text-gray-900 w-[210mm] h-[297mm] mx-auto shadow-lg print:shadow-none overflow-hidden text-[10px] leading-[1.3] ${
+        showBorder ? "ring-4 ring-purple-500 ring-offset-2" : ""
+      }`}
+    >
       <div className="flex h-full">
         <aside className="w-[62mm] bg-gray-50 px-5 pt-52 pb-8 print:bg-gray-50 flex flex-col gap-6">
           <section className="flex-shrink-0">
@@ -115,25 +160,35 @@ export function ResumeTemplate({ data }: { data: ResumeData }) {
           )}
         </aside>
 
-        <main className="flex-1 px-6 pt-24 pb-8 flex flex-col gap-5">
-          <header className="flex-shrink-0 border-b-2 border-gray-900 pb-3">
+        <main className="flex-1 px-6 pt-12 pb-8 flex flex-col gap-4">
+          <header className="flex-shrink-0">
             <h1 className="text-[26px] font-bold tracking-tight uppercase leading-none">{personalDetails.fullName}</h1>
-            <p className="text-[13px] text-gray-600 mt-1.5">{personalDetails.title}</p>
+            <p className="text-[13px] text-gray-600 mt-1">{personalDetails.title}</p>
           </header>
 
           <section className="flex-shrink-0">
             <h2 className="text-[10px] font-bold uppercase tracking-wider text-gray-900 mb-3">Summary</h2>
-            <p className="text-gray-700 leading-[1.5]">{summary}</p>
+            <HighlightWrapper section="summary" field="summary" changes={changes} showHighlights={showHighlights}>
+              <p className="text-gray-700 leading-[1.5]">{summary}</p>
+            </HighlightWrapper>
           </section>
 
           <section className="flex-shrink-0">
             <h2 className="text-[10px] font-bold uppercase tracking-wider text-gray-900 mb-3">Core Competencies</h2>
             <div className="space-y-1">
               {skills.map((skill) => (
-                <div key={skill.category} className="leading-[1.4]">
-                  <span className="font-semibold">{skill.category}:</span>{" "}
-                  <span className="text-gray-700">{skill.items.join(", ")}.</span>
-                </div>
+                <HighlightWrapper 
+                  key={skill.category} 
+                  section="skills" 
+                  field={skill.category} 
+                  changes={changes} 
+                  showHighlights={showHighlights}
+                >
+                  <div className="leading-[1.4]">
+                    <span className="font-semibold">{skill.category}:</span>{" "}
+                    <span className="text-gray-700">{skill.items.join(", ")}.</span>
+                  </div>
+                </HighlightWrapper>
               ))}
             </div>
           </section>
@@ -159,10 +214,18 @@ export function ResumeTemplate({ data }: { data: ResumeData }) {
                   <p className="text-[8px] text-gray-500 mt-1.5 mb-2 italic">{exp.technologies.join(" | ")}</p>
                   <ul className="space-y-1.5">
                     {exp.achievements.map((achievement, idx) => (
-                      <li key={idx} className="text-gray-700 flex leading-[1.4]">
-                        <span className="mr-1.5">•</span>
-                        <span>{achievement}</span>
-                      </li>
+                      <HighlightWrapper 
+                        key={idx} 
+                        section="experience" 
+                        field={`${exp.company} - Achievement ${idx + 1}`} 
+                        changes={changes} 
+                        showHighlights={showHighlights}
+                      >
+                        <li className="text-gray-700 flex leading-[1.4]">
+                          <span className="mr-1.5">•</span>
+                          <span>{achievement}</span>
+                        </li>
+                      </HighlightWrapper>
                     ))}
                   </ul>
                 </div>

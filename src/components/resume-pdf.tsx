@@ -1,6 +1,6 @@
 "use client";
 
-import { Document, Page, Text, View, StyleSheet, Font } from "@react-pdf/renderer";
+import { Document, Page, Text, View, StyleSheet, Font, Svg, Path } from "@react-pdf/renderer";
 import { ResumeData } from "@/types/resume";
 
 Font.register({
@@ -22,12 +22,14 @@ const styles = StyleSheet.create({
     width: "30%",
     backgroundColor: "#f9fafb",
     paddingHorizontal: 16,
-    paddingVertical: 20,
+    paddingTop: 115,
+    paddingBottom: 15,
   },
   main: {
     width: "70%",
     paddingHorizontal: 20,
-    paddingVertical: 20,
+    paddingTop: 28,
+    paddingBottom: 15,
   },
   sectionTitle: {
     fontSize: 8,
@@ -35,38 +37,35 @@ const styles = StyleSheet.create({
     textTransform: "uppercase",
     letterSpacing: 0.5,
     color: "#6b7280",
-    marginBottom: 8,
+    marginBottom: 6,
     borderBottomWidth: 0.5,
     borderBottomColor: "#d1d5db",
-    paddingBottom: 3,
+    paddingBottom: 2,
   },
   section: {
-    marginBottom: 14,
+    marginBottom: 10,
   },
   name: {
     fontSize: 22,
     fontWeight: "bold",
     textTransform: "uppercase",
     letterSpacing: 0.3,
-    marginBottom: 4,
+    marginBottom: 2,
   },
   title: {
     fontSize: 11,
     color: "#4b5563",
-    marginBottom: 10,
+    marginBottom: 8,
   },
   header: {
-    borderBottomWidth: 2,
-    borderBottomColor: "#111827",
-    paddingBottom: 10,
-    marginBottom: 14,
+    marginBottom: 10,
   },
   mainSectionTitle: {
     fontSize: 9,
     fontWeight: "bold",
     textTransform: "uppercase",
     letterSpacing: 0.5,
-    marginBottom: 6,
+    marginBottom: 4,
   },
   text: {
     fontSize: 9,
@@ -78,14 +77,16 @@ const styles = StyleSheet.create({
     alignItems: "center",
     marginBottom: 5,
   },
-  contactIcon: {
-    width: 12,
+  contactIconContainer: {
+    width: 14,
+    height: 14,
     marginRight: 6,
-    fontSize: 8,
-    color: "#6b7280",
+    justifyContent: "center",
+    alignItems: "center",
   },
   contactText: {
     fontSize: 9,
+    flex: 1,
   },
   skillCategory: {
     marginBottom: 3,
@@ -99,7 +100,7 @@ const styles = StyleSheet.create({
     color: "#374151",
   },
   expContainer: {
-    marginBottom: 12,
+    marginBottom: 10,
     borderLeftWidth: 2,
     borderLeftColor: "#d1d5db",
     paddingLeft: 10,
@@ -149,7 +150,7 @@ const styles = StyleSheet.create({
     lineHeight: 1.35,
   },
   eduItem: {
-    marginBottom: 8,
+    marginBottom: 6,
   },
   eduInstitution: {
     fontWeight: "bold",
@@ -180,7 +181,7 @@ const styles = StyleSheet.create({
     lineHeight: 1.3,
   },
   interestItem: {
-    marginBottom: 6,
+    marginBottom: 5,
   },
   interestTitle: {
     fontWeight: "bold",
@@ -191,7 +192,86 @@ const styles = StyleSheet.create({
     color: "#4b5563",
     lineHeight: 1.3,
   },
+  interestBullet: {
+    flexDirection: "row",
+    marginBottom: 2,
+  },
+  interestBulletText: {
+    flex: 1,
+    fontSize: 8,
+    color: "#4b5563",
+    lineHeight: 1.3,
+  },
 });
+
+function PhoneIcon() {
+  return (
+    <Svg width="10" height="10" viewBox="0 0 24 24">
+      <Path
+        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+        stroke="#6b7280"
+        strokeWidth="2"
+        fill="none"
+      />
+    </Svg>
+  );
+}
+
+function MailIcon() {
+  return (
+    <Svg width="10" height="10" viewBox="0 0 24 24">
+      <Path
+        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+        stroke="#6b7280"
+        strokeWidth="2"
+        fill="none"
+      />
+      <Path d="M22 6l-10 7L2 6" stroke="#6b7280" strokeWidth="2" fill="none" />
+    </Svg>
+  );
+}
+
+function LinkedInIcon() {
+  return (
+    <Svg width="10" height="10" viewBox="0 0 24 24">
+      <Path
+        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+        stroke="#6b7280"
+        strokeWidth="2"
+        fill="none"
+      />
+      <Path d="M2 9h4v12H2z" stroke="#6b7280" strokeWidth="2" fill="none" />
+      <Path d="M4 2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" stroke="#6b7280" strokeWidth="2" fill="none" />
+    </Svg>
+  );
+}
+
+function MapPinIcon() {
+  return (
+    <Svg width="10" height="10" viewBox="0 0 24 24">
+      <Path
+        d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+        stroke="#6b7280"
+        strokeWidth="2"
+        fill="none"
+      />
+      <Path d="M12 7a3 3 0 1 0 0 6 3 3 0 0 0 0-6z" stroke="#6b7280" strokeWidth="2" fill="none" />
+    </Svg>
+  );
+}
+
+function GithubIcon() {
+  return (
+    <Svg width="10" height="10" viewBox="0 0 24 24">
+      <Path
+        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+        stroke="#6b7280"
+        strokeWidth="2"
+        fill="none"
+      />
+    </Svg>
+  );
+}
 
 export function ResumePDF({ data }: { data: ResumeData }) {
   const { personalDetails, summary, languages, education, memberships, interests, skills, experience } = data;
@@ -203,24 +283,34 @@ export function ResumePDF({ data }: { data: ResumeData }) {
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>Personal Details</Text>
             <View style={styles.contactRow}>
-              <Text style={styles.contactIcon}>☎</Text>
+              <View style={styles.contactIconContainer}>
+                <PhoneIcon />
+              </View>
               <Text style={styles.contactText}>{personalDetails.phone}</Text>
             </View>
             <View style={styles.contactRow}>
-              <Text style={styles.contactIcon}>✉</Text>
+              <View style={styles.contactIconContainer}>
+                <MailIcon />
+              </View>
               <Text style={styles.contactText}>{personalDetails.email}</Text>
             </View>
             <View style={styles.contactRow}>
-              <Text style={styles.contactIcon}>in</Text>
+              <View style={styles.contactIconContainer}>
+                <LinkedInIcon />
+              </View>
               <Text style={styles.contactText}>{personalDetails.linkedin}</Text>
             </View>
             <View style={styles.contactRow}>
-              <Text style={styles.contactIcon}>📍</Text>
+              <View style={styles.contactIconContainer}>
+                <MapPinIcon />
+              </View>
               <Text style={styles.contactText}>{personalDetails.location}</Text>
             </View>
             {personalDetails.github && (
               <View style={styles.contactRow}>
-                <Text style={styles.contactIcon}>⌨</Text>
+                <View style={styles.contactIconContainer}>
+                  <GithubIcon />
+                </View>
                 <Text style={styles.contactText}>{personalDetails.github}</Text>
               </View>
             )}
@@ -269,7 +359,18 @@ export function ResumePDF({ data }: { data: ResumeData }) {
               {interests.map((interest) => (
                 <View key={interest.title} style={styles.interestItem}>
                   <Text style={styles.interestTitle}>{interest.title}</Text>
-                  {interest.description && <Text style={styles.interestDesc}>{interest.description}</Text>}
+                  {interest.description && (
+                    interest.title === "Technical Specialties" ? (
+                      interest.description.split(" • ").map((item, idx) => (
+                        <View key={idx} style={styles.interestBullet}>
+                          <Text style={{ fontSize: 8, marginRight: 4 }}>•</Text>
+                          <Text style={styles.interestBulletText}>{item}</Text>
+                        </View>
+                      ))
+                    ) : (
+                      <Text style={styles.interestDesc}>{interest.description}</Text>
+                    )
+                  )}
                 </View>
               ))}
             </View>
